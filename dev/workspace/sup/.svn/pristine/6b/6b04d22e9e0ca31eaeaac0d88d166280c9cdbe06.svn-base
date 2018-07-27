@@ -1,0 +1,285 @@
+@charset "utf-8";
+@import url(common.css);
+
+/* 사이트맵 페이지 */
+/* #section{
+	width:1200px;
+	margin: 90px auto 0;
+} */
+.sitemap_1depth{
+  margin:0 auto;
+}
+
+.sitemap_1depth li{
+  float: left;
+  width: 160px;
+  margin-right: 48px;
+}
+.sitemap_1depth li:last-of-type{
+  margin-right: 0;
+}
+.sitemap_1depth_title{
+  padding-bottom: 16px; padding-left: 20px;
+  font-size: 1.375rem; color: #222;
+}
+.sitemap_2depth_line {
+  position: relative;
+  width: 100%; height: 1px;
+  border-top: 1px solid #ddd;
+}
+.sitemap_2depth_line:after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px; height: 87px;
+  border-left: 1px solid #ddd;
+}
+.sitemap_2depth{
+  padding-left: 20px;
+}
+.sitemap_2depth li{
+  line-height: 50px;
+}
+.sitemap_2depth li a{
+  color: #666;
+}
+.sitemap_2depth li.sitemap_3depth{
+  line-height: 1rem;
+}
+.sitemap_3depth div{
+  margin-bottom: 15px;
+}
+
+/* 층별안내 페이지 */
+.floor_area{
+  position: relative;
+	width: 1200px;
+	margin: 90px auto 0;
+	height: 1680px;
+}
+.box_floor{
+  position: relative;
+  z-index: 10;
+}
+.img_floor{
+  position: absolute; left: 0;
+  width: 600px;
+}
+.img_floor h4{
+  position: absolute; right: -15px; top: 0;
+  font-size: 2rem; font-weight: 700; color: #673918;
+}
+.pc_none{
+  display: none;
+}
+.text_floor{
+  position: absolute; right: 0;
+  width: 405px;
+  padding: 20px;
+  border: 1px solid #ccc; border-radius: 15px;
+  box-sizing: border-box;
+  line-height:19px; 
+  color: #81939e;
+  word-break: keep-all; word-spacing: 5px;
+  font-size:14px;
+}
+
+.br_c{color:#000;}
+
+.title_floor{
+	color:#000;
+  font-weight: 700;
+  font-size:16px;
+  margin-bottom:10px;
+}
+.floor05{
+  top: 0;
+}
+.floor04{
+  top: 230px;
+}
+.floor03{
+  top: 473px;
+}
+.floor02{
+  top: 750px;
+}
+.floor01{
+  top: 1055px;
+  z-index: 9;
+}
+.floorb1{
+  top: 1302px;
+  z-index: 8;
+}
+
+.text_floor_02{
+  top: 180px;
+}
+.text_floor_03{
+  top: 98px;
+}
+.text_floor_04{
+  top: -275px;
+}
+.text_floor_05{
+  top: -128px;
+}
+.text_floor_06{
+  top: 20px;
+}
+.text_floor_07{
+  top: 168px;
+}
+.text_floor_08{
+  top: -15px;
+}
+.text_floor_09{
+  top: 120px;
+}
+.text_floor_10{
+  top: 243px;
+}
+.text_floor_11{
+  top: 144px;
+}
+.text_floor_12{
+  top: 280px;
+}
+
+.floor05 .img_floor h4{
+  top: 50px;
+}
+.floor04 .img_floor h4{
+  top: 120px;
+}
+.floor03 .img_floor h4{
+  top: 4px;
+}
+.floor02 .img_floor h4{
+  top: 160px;
+}
+.floor01 .img_floor h4{
+  top: 170px;
+}
+.floorb1 .img_floor h4{
+  top: 147px;
+}
+.img_line_floor{
+  position: absolute; right: 390px; top: 62px;
+  width: 180px;
+}
+
+/* 미디어쿼리 */
+@media all and (max-width:1200px){
+  #section{
+    width: 100%;
+    min-width: 600px;
+  }
+  .sitemap_1depth{
+    width: 600px;
+    margin: 0 auto;
+  }
+  .sitemap_1depth>li:nth-of-type(3){
+    margin-right: 0;
+  }
+  .sitemap_1depth>li:nth-of-type(4){
+    clear: both;
+    margin-top: 60px;
+  }
+  .sitemap_1depth>li:nth-of-type(5){
+    margin-top: 60px;
+  }
+  .sitemap_1depth>li:nth-of-type(6){
+    margin-top: 60px;
+  }
+  
+/* 층별페이지 */
+  .pc_none{
+    display: block;
+  }
+  .mb_none{
+    display: none;
+  }
+  .floor_area{
+    width: 600px;
+	height: auto;
+    margin: 0 auto;
+  }
+  .img_floor{
+    position: static;
+    margin: 0 auto;
+  }
+  .text_floor{
+    position: static;
+    margin: 30px auto;
+  }
+  .floor04, .floor03, .floor02, .floor01, .floorb1{
+    top: 0;
+  }
+  .floor05 .img_floor h4, .floor04 .img_floor h4, .floor03 .img_floor h4, .floor02 .img_floor h4, .floor01 .img_floor h4, .floorb1 .img_floor h4{
+    top: 0; right: 85%;
+  }
+  .floor03:after, .floor02:after, .floor01:after{
+    content: "";
+    display: block;
+    width: 100%;
+    margin: 50px auto;
+    border: 1px dotted #ccc;
+  }
+  #floor_wrap #section{
+	width: 100%;
+	height: auto;
+  }
+	
+	
+}
+
+
+@media all and (max-width:600px){
+  .route{
+    top: 95px;
+    right: 5px;
+  }
+  #section{
+    width: 100%;
+    min-width: 320px;
+  }
+  .sitemap_1depth{
+    width: 320px;
+    margin: 0 auto;
+  }
+  .sitemap_1depth li{
+    width: 150px;
+    margin-right: 0;
+  }
+  .sitemap_1depth>li:nth-of-type(2n-1){
+    margin-right: 15px;
+    margin-top: 30px;
+  }
+  .sitemap_1depth>li:nth-of-type(2n){
+    float: left; clear: none;
+    margin-top: 30px;
+    margin-right: 0;
+  }
+  .sitemap_2depth{
+    padding-left: 10px;
+  }
+  .sitemap_2depth li{
+    width: 140px;
+  }
+  .floor_area{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .img_floor{
+    width: 100%;
+  }
+  .img_floor img{
+    width: 100%;
+  }
+  .text_floor{
+    width: 100%;
+    margin: 20px auto;
+  }
+}

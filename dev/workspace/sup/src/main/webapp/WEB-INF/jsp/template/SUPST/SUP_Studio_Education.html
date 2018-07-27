@@ -1,0 +1,460 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>서울새활용플라자</title>
+<link rel="stylesheet" href="/css/SUP_studio.css">
+
+	<!--[if lt IE 9]>
+      <script src="../js/reset/html5shiv.js"></script>
+      <script src="../js/reset/respond.min.js"></script>
+      <script src="../js/reset/IE9.js"></script>
+    <![endif]-->
+    <script type="text/javascript" >
+    
+		$(function(){
+			
+
+			$("#11111111111").click(function(){
+				location.href="/bookinsert.do?BBS_ID=${vo.BBS_ID}";
+			});
+			$("#ebtn1").click(function(){
+				//location.href="/book.do?type=edu";
+				location.href="http://seoulup.host.whoisweb.net/Bus/pre_register.php";
+			});
+	
+			
+			
+		});
+		
+	</script>
+	<style>
+		.edu_program h4{font-size:2em;float:left;}
+		.edu_program div.btn{width:auto;float:right;}
+		.edu_program img{width:100%;clear:both;}
+		.skew_wrap{padding:2.5% 0;}
+		.skew_wrap h5{font-size:1.2em;font-weight:600;}
+		.imgwrap>img{float:left;width:32%;margin:0;margin-left:1%;}
+		.imgwrap{padding:1% 0;}
+		.eduContent img, div.inline{float:left;}
+		.inline img{width:100%;}
+		.eduContent{padding:1% 0;border-top:1px solid #eee;width:100%;}
+		.eduContent li{font-size:15px;padding-left:10px;}
+		 div.inline:first-of-type{width:15%;text-align:center;}
+		 div.inline:nth-of-type(2){width:60%;padding-left:15px;}
+		 div.inline:last-of-type{width:20%;text-align:right;}
+		 .eduContent button{font-size:14px;width:auto;padding:5%;min-width:68px;height:auto;margin-top:18px;}
+		.skew_wrap::after{display:none;}
+		.eduContent button.close{border:1px solid #c5c5c5;color:#c5c5c5;}
+		.eduContent button.close:hover{border:1px solid #c5c5c5;color:#c5c5c5;background:transparent;}
+		.aa{width:100%;height:250px;background:url(../img/studio/newMain.jpg);background-repeat:no-repeat;background-position:0px 37%;background-size:cover;}
+		 @media all and (max-width:480px){
+		 div.inline:first-of-type, div.inline:nth-of-type(2), div.inline:last-of-type{float:none;width:100%;}
+		 
+		.eduContent img, div.inline:last-of-type{text-align:center;}
+		.eduContent button{padding:2% 6%;}
+		.eduContent li{padding-left:0;}
+		.edu_program div.btn{width:100%;float:none;}
+		.aa{height:200px;}
+		 }
+		@media all and (max-width:340px){
+		.edu_program .btn button{
+		width:100%;
+		}
+		.aa{height:150px;}
+
+
+	}
+
+	</style>
+</head>
+<body>
+    <div id="studio_wrap">
+
+    <!--  Main section 영역  -->
+    <section id="section">
+        <article class="studio studio_edu">
+            <div class="content_h3bx">
+                <h3>교육</h3>
+                <ul class="route">
+                    <li>홈</li>
+                    <li>주요사업</li>
+                    <li>교육</li>
+                </ul>
+            </div>
+             <div class="edu_program clear">
+                <div class="clear" style="width:100%;float:none;"><h4>새활용 교육</h4>
+                  <div class="btn"><button id="ebtn1">교육 예약하기</button></div></div>
+                  <div class="aa" style="float:none;">
+                <!-- <img src="../img/studio/newMain.jpg" alt="교육 메인 이미지">       -->
+            </div></div>
+            <div class="skew_wrap clear">
+              <div class="wrap_cotent">
+                    <h5>어린이 교육</h5>
+			<p>즐거운 새활용 놀이를 통해 새활용 및 자원순환에 대한 긍정적인 감정을 형성합니다.</p>
+                    <div class="imgwrap clear">
+                    	<img src="../img/studio/child1_big.jpg" alt="어린이교육1">
+                    	<img src="../img/studio/child2_big.jpg" alt="어린이교육2">
+                    	<img src="../img/studio/child1_big.jpg" alt="어린이교육3">
+                    </div>     
+                    <div class="eduContent clear">
+                    	<div class="inline">
+                    		<img src="../img/studio/child1.jpg" alt="어린이교육1">
+                    	</div>
+                    	<div class="inline">
+                    		<strong>새활용 놀이</strong>
+                    		<ul>
+                    			<li><span>-</span> 교육 대상 : 미취학아동, 초등 저학년</li>
+                    			<li><span>-</span> 교육 기간 : 2018.06.02~2018.11.17(토요일)</li>
+                    			<li><span>-</span> 참가비 : </li>
+                    			<li><span>-</span> 온라인 선착순 접수(20명)</li>
+                    		</ul>
+                    	</div>
+                    	<div class="inline">
+                    		<button onclick="javascript:window.location.href='';">접수예정</button>
+                    		<p>2018.05.22~</p>
+                    		<p>(접수일정)</p>   
+                    	</div>   
+                    </div>
+                    <div class="eduContent clear">
+                    	<div class="inline">
+                    		<img src="../img/studio/child2.jpg" alt="어린이교육2">
+                    	</div>
+                    	<div class="inline">
+                    		<strong>새활용 디자인 교육</strong>
+                    		<ul>
+                    			<li><span>-</span> 교육 대상 : 초등학생</li>
+                    			<li><span>-</span> 교육 기간 : 2018.06.07/14/21/28(목요일)</li>
+                    			<li><span>-</span> 참가비 : 유료(추후 공지)</li>
+                    			<li><span>-</span> 온라인 선착순 접수(20명)</li>
+                    		</ul>
+                    	</div>
+                    	<div class="inline">
+                    		<button onclick="javascript:window.location.href='';">접수예정</button>
+                    		<p>2018.05.22~</p>
+                    		<p>(접수일정)</p>   
+                    	</div>   
+                    </div>
+              </div>
+            </div>
+          
+          	<div class="skew_wrap clear">
+              <div class="wrap_cotent">
+                    <h5>청소년 교육</h5>
+		     <p>다양한 역할 경험을 통해, 새활용 산업 내의 다양한 사람들의 일과 삶을 이해하고 그 속에서 자신의 적성을 발견합니다.</p>
+                    <div class="imgwrap clear">
+                    	<img src="../img/studio/young1_big.jpg" alt="청소년교육1">
+                    	<img src="../img/studio/young2_big.jpg" alt="청소년교육2">
+                    	<img src="../img/studio/young3_big.jpg" alt="청소년교육3">
+                    </div>     
+                    <div class="eduContent clear">
+                    	<div class="inline">
+                    		<img src="../img/studio/young1.jpg" alt="청소년교육1">
+                    	</div>
+                    	<div class="inline">
+                    		<strong>그린 캠퍼스 동아리</strong>
+                    		<ul>
+                    			<li><span>-</span> 교육 대상 : 중학생</li>
+                    			<li><span>-</span> 교육 기간 : 2018.10.04/11/18/25(목요일)</li>
+                    			<li><span>-</span> 참가비 : 무료 </li>
+                    			<li><span>-</span> 온라인 선착순 접수(20명)</li>
+                    		</ul>
+                    	</div>
+                    	<div class="inline">
+                    		<button onclick="javascript:window.location.href='';">접수예정</button>
+                    		<p>2018.05.22~</p>
+                    		<p>(접수일정)</p>   
+                    	</div>   
+                    </div>
+                    <div class="eduContent clear">
+                    	<div class="inline">
+                    		<img src="../img/studio/young2.jpg" alt="청소년교육2">
+                    	</div>
+                    	<div class="inline">
+                    		<strong>새활용 디자인 교육(자유학기제 프로그램)</strong>
+                    		<ul>
+                    			<li><span>-</span> 교육 대상 : 중학생</li>
+                    			<li><span>-</span> 교육 기간 : 2018.10.04/11/18/25(목요일)</li>
+                    			<li><span>-</span> 참가비 : 유료(추후 공지)</li>
+                    			<li><span>-</span> 온라인 선착순 접수(20명)</li>
+                    		</ul>
+                    	</div>
+                    	<div class="inline">
+                    		<button onclick="javascript:window.location.href='';">접수예정</button>
+                    		<p>2018.07.31~</p>
+                    		<p>(접수일정)</p>   
+                    	</div>   
+                    </div>
+                    <div class="eduContent clear">
+                    	<div class="inline">
+                    		<img src="../img/studio/young3.jpg" alt="청소년교육3">
+                    	</div>
+                    	<div class="inline">
+                    		<strong>새활용 메이커 교육<span>(서울특별시교육청 2018 찾아가는 메이커 체험활동)</span></strong>
+                    		<ul>
+                    			<li><span>-</span> 교육 대상 : 중학생</li>
+                    			<li><span>-</span> 교육 기간 : 2018.06.02~2018.11.02(금요일)</li>
+                    			<li><span>-</span> 참가비 : 무료</li>
+                    			<li><span>-</span> 학교 공문 발송 및 신청 접수(완료)</li>
+                    		</ul>
+                    	</div>
+                    	<div class="inline">
+                    		<button onclick="javascript:window.location.href='';" class="close">접수마감</button>
+                    		<p>2018.04.02~2018.04.04</p>
+                    		<p>(접수일정)</p>   
+                    	</div>   
+                    </div>
+                    <div class="eduContent clear">
+                    	<div class="inline">
+                    		<img src="../img/studio/young2.jpg" alt="청소년교육4">
+                    	</div>
+                    	<div class="inline">
+                    		<strong>놀토교육</strong>
+                    		<ul>
+                    			<li><span>-</span> 교육 대상 : 중학생</li>
+                    			<li><span>-</span> 교육 기간 : 2018.06.23~2018.11.17(토요일)</li>
+                    			<li><span>-</span> 참가비 : 10,000원</li>
+                    			<li><span>-</span> 기관 공문 발송 및 신청 접수(완료)</li>
+                    		</ul>
+                    	</div>
+                    	<div class="inline">
+                    		<button onclick="javascript:window.location.href='';" class="close">접수마감</button>
+                    	</div>   
+                    </div>
+              </div>
+            </div>
+             <div class="skew_wrap clear">
+              <div class="wrap_cotent">
+                    <h5>성인 교육</h5>
+<p>다양한 사람들과의 네트워킹, 정보 공유, 컨설팅 등으로 새활용 산업의 기반을 다집니다.</p>
+
+                    <div class="imgwrap clear">
+                    	<img src="../img/studio/adult1.jpg" alt="성인교육1">
+                    	<img src="../img/studio/adult2.jpg" alt="성인교육2">
+                    	<img src="../img/studio/adult3.jpg" alt="성인교육3">
+                    </div>     
+                    <div class="eduContent clear">
+                    	<div class="inline">
+                    		<img src="../img/studio/adult4.jpg" alt="성인교육1">
+                    	</div>
+                    	<div class="inline">
+                    		<strong>제 3회 새활용 포럼</strong>
+                    		<ul>
+                    			<li><span>-</span> 교육 대상 : 누구나</li>
+                    			<li><span>-</span> 교육 기간 : 2018.06.05</li>
+                    			<li><span>-</span> 참가비 : 무료 </li>
+                    			<li><span>-</span> 온라인 선착순 접수</li>
+                    		</ul>
+                    	</div>
+                    	<div class="inline">
+                    		<button onclick="javascript:window.location.href='';">접수예정</button>
+                    		<p>2018.05.22~</p>
+                    		<p>(접수일정)</p>   
+                    	</div>   
+                    </div>
+                    <div class="eduContent clear">
+                    	<div class="inline">
+                    		<img src="../img/studio/adult5.jpg" alt="성인교육2">
+                    	</div>
+                    	<div class="inline">
+                    		<strong>새활용 기업 도약하기</strong>
+                    		<ul>
+                    			<li><span>-</span> 교육 대상 : 창업 2년 미만의 새활용 기업 창업자 또는 산업종사자</li>
+                    			<li><span>-</span> 교육 기간 : 2018.06~2018.08</li>
+                    			<li><span>-</span> 참가비 : 무료</li>
+                    			<li><span>-</span> 온라인 선착순 접수(10개 팀)</li>
+                    		</ul>
+                    	</div>
+                    	<div class="inline">
+                    		<button onclick="javascript:window.location.href='';">접수예정</button>
+                    		<p>2018.05.22~</p>
+                    		<p>(접수일정)</p>   
+                    	</div>   
+                    </div>
+                    <div class="eduContent clear">
+                    	<div class="inline">
+                    		<img src="../img/studio/adult6.jpg" alt="성인교육3">
+                    	</div>
+                    	<div class="inline">
+                    		<strong>새활용 기업 창업 스토리</strong>
+                    		<ul>
+                    			<li><span>-</span> 교육 대상 : 예비창업자 및 대학생</li>
+                    			<li><span>-</span> 교육 기간 : 2018.7~8월/11~12월(금요일)</li>
+                    			<li><span>-</span> 참가비 : 무료</li>
+                    			<li><span>-</span> 온라인 선착순 접수(20명)</li>
+                    		</ul>
+                    	</div>
+                    	<div class="inline">
+                    		<button onclick="javascript:window.location.href='';">접수예정</button>
+                    		<p>2018.06~</p>
+                    		<p>(접수일정)</p>   
+                    	</div>   
+                    </div>
+                    <div class="eduContent clear">
+                    	<div class="inline">
+                    		<img src="../img/studio/adult7.jpg" alt="성인교육4">
+                    	</div>
+                    	<div class="inline">
+                    		<strong>대학연계 새활용 교육</strong>
+                    		<ul>
+                    			<li><span>-</span> 교육 대상 : 대학생</li>
+                    			<li><span>-</span> 교육 기간 : 2018.09월 중</li>
+                    			<li><span>-</span> 참가비 : 무료</li>
+                    			<li><span>-</span> 학교 공문 발송 및 일정 조율 후 진행</li>
+                    		</ul>
+                    	</div>
+                    	<div class="inline">
+                    		<button onclick="javascript:window.location.href='';">접수예정</button>
+                    	</div>   
+                    </div>
+              </div>
+            </div>
+             <div class="skew_wrap clear">
+              <div class="wrap_cotent">
+                    <h5>특별 교육</h5>
+<p>다양한 분야의 외부 전문가들과 새활용을 접목한 교육을 합니다.</p>
+
+                    <div class="imgwrap clear">
+                    	<img src="../img/studio/special1_big.jpg" alt="특별교육1">
+                    	<img src="../img/studio/special2_big.jpg" alt="특별교육2">
+                    	<img src="../img/studio/special3_big.jpg" alt="특별교육3">
+                    </div>     
+                    <div class="eduContent clear">
+                    	<div class="inline">
+                    		<img src="../img/studio/special1.jpg" alt="특별교육1">
+                    	</div>
+                    	<div class="inline">
+                    		<strong>새활용 기업과 새활용 체험하기</strong>
+                    		<ul>
+                    			<li><span>-</span> 교육 대상 : 전 연령</li>
+                    			<li><span>-</span> 교육 기간 : 2018.05.12~2018.12.30</li>
+                    			<li><span>-</span> 참가비 : 유료(재료비)</li>
+                    			<li><span>-</span> 온라인 선착순 접수(20명)</li>
+                    		</ul>
+                    	</div>
+                    	<div class="inline">
+                    		<button onclick="javascript:window.location.href='';">접수예정</button>
+                    		<p>2018.05.01~</p>
+                    		<p>(접수일정)</p>   
+                    	</div>   
+                    </div>
+                    <div class="eduContent clear">
+                    	<div class="inline">
+                    		<img src="../img/studio/special2.jpg" alt="특별교육2">
+                    	</div>
+                    	<div class="inline">
+                    		<strong>새활용마켓 셀러와 새활용 체험하기</strong>
+                    		<ul>
+                    			<li><span>-</span> 교육 대상 : 전 연령</li>
+                    			<li><span>-</span> 교육 기간 : 2018.05.05~2018.12.30(매 월 1주 차 토요일)</li>
+                    			<li><span>-</span> 참가비 : 유료(재료비)</li>
+                    			<li><span>-</span> 온라인 선착순 접수(20명)</li>
+                    		</ul>
+                    	</div>
+                    	<div class="inline">
+                    		<button onclick="javascript:window.location.href='';">접수예정</button>
+                    		<p>2018.05.01~</p>
+                    		<p>(접수일정)</p>   
+                    	</div>   
+                    </div>
+                    <div class="eduContent clear">
+                    	<div class="inline">
+                    		<img src="../img/studio/special3.jpg" alt="특별교육3">
+                    	</div>
+                    	<div class="inline">
+                    		<strong>우리 가족 새활용 체험하기</strong>
+                    		<ul>
+                    			<li><span>-</span> 교육 대상 : 전 연령(가족)</li>
+                    			<li><span>-</span> 교육 기간 : 2018.05.12~2018.11.10(매 주 토,일)</li>
+                    			<li><span>-</span> 참가비 : 무료</li>
+                    			<li><span>-</span> 온라인 선착순 접수(20명)</li>
+                    		</ul>
+                    	</div>
+                    	<div class="inline">
+                    		<button onclick="javascript:window.location.href='';">접수예정</button>
+                    		<p>2018.05.01~</p>
+                    		<p>(접수일정)</p>   
+                    	</div>   
+                    </div>
+                    <div class="eduContent clear">
+                    	<div class="inline">
+                    		<img src="../img/studio/special4.jpg" alt="특별교육4">
+                    	</div>
+                    	<div class="inline">
+                    		<strong>새활용 DIY키트 개발 들여다보기</strong>
+                    		<ul>
+                    			<li><span>-</span> 교육 대상 : 전 연령</li>
+                    			<li><span>-</span> 교육 기간 : 2018.07~08월</li>
+                    			<li><span>-</span> 참가비 : 무료</li>
+                    			<li><span>-</span> 학교 공문 발송 및 일정 조율 후 진행</li>
+                    		</ul>
+                    	</div>
+                    	<div class="inline">
+                    		<button onclick="javascript:window.location.href='';">접수예정</button>
+                    	</div>   
+                    </div>
+              </div>
+            </div>
+            
+            
+            
+            
+            <!--  <div class="edu_program clear">
+                <h4>서울새활용플라자 교육프로그램</h4>
+                <div>
+                    <p>지속가능한 서울, 지속가능한 지구, 지속가능한 미래를 위해 함께 공부하며 상상합니다.</p>
+                    <p>새활용 디자인의 이론과 실재, 미래의 주인인 어린이와 함께하는 100분 놀이, 전문가들의 담론 만들기.</p>
+                    <p>서울새활용플라자 교육 프로그램은 함께 말하기와 놀기, 생각하기와 만들기의 경계가 없습니다.</p>
+                </div>
+                <div class="btn"><button id="ebtn1">교육 예약하기</button></div>
+            </div>
+            <div class="skew_wrap clear">
+              <div class="skew_box">
+                  <div class="skew_img"><img src="../img/studio/01.jpg" alt=""></div>
+              </div>
+              <div class="program_box">
+                  <div class="program_info">
+                    <h5>새활용 상상</h5>
+                    <p class="c8f1743">전문가 일반시민, 초등학생들의 디자인 높이기</p>
+                    <p>디자인, 산업과 경제, 입주 스튜디오 오픈 프로그램 등 새활용 디자인의 깊은 이론과  생생한 실재를 배울 수 있는 프로그램입니다. 새활용의 미학, 디자인 프로세스, 트렌드가 문학적 측면이라면, 환경과 인간, 서울 공동체, 자원순환사회 그리고 창의산업과 창의경제에 대해 공부합니다.</p>
+                  </div>
+              </div>
+            </div>
+            <div class="skew_wrap clear program_box_right">
+				<div class="skew_box">
+                  <div class="skew_img"><img src="../img/studio/02.jpg" alt=""></div>
+              </div>
+              <div class="program_box">
+                  <div class="program_info">
+                    <h5>새활용 놀이</h5>
+                    <p class="c8f1743">어린이와 함께 100분놀기</p>
+                    <p>푸른지구를 위한 놀이.100분동안 신나게 놀다 보면 지구가 깨끗해지는 놀이들, 단단한 철학과 함께하는 미래 주인 아이들을 위한 새활용 디자인 놀이 프로그램 입니다. 아이들에게 ‘새활용 디자인’ 이란 재미있는 놀이입니다.</p>
+                  </div>
+              </div>
+            </div>
+            <div class="skew_wrap clear">
+              <div class="skew_box">
+                  <div class="skew_img"><img src="../img/studio/03.jpg" alt=""></div>
+              </div>
+              <div class="program_box">
+                  <div class="program_info">
+                    <h5>새활용 포럼</h5>
+                    <p class="c8f1743">업사이클링 관련자 및 전문가들의 이야기판</p>
+                    <p>지원소비사회에서 자원순환 사회로의 진화와 변화를 위한 전문가들의 ‘이야기판’ 새활용과 디자인, 도시, 일상 등 폐기물  0%를 향한 다양한 담론이 펼쳐집니다.</p>
+                  </div>
+              </div> -->
+             
+            </div>
+            
+        </article>
+    </section>
+    <!--  //Main section 영역  -->
+    </div>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery.bxslider.min.js"></script>
+  
+    <script src="../js/index.js"></script>
+</body>

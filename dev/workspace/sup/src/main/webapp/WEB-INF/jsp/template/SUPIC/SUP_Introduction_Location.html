@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>서울새활용플라자</title>
+<link rel="stylesheet" href="../css/jquery.bxslider.css">
+<link rel="stylesheet" href="../css/SUP_Introduction.css">
+
+	<!--[if lt IE 9]>
+      <script src="../js/reset/html5shiv.js"></script>
+      <script src="../js/reset/respond.min.js"></script>
+      <script src="../js/reset/IE9.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="main_wrap">
+    <!--  Header 영역  -->
+
+    <!--  //Header 영역  -->
+    <!--  Main section 영역  -->
+    <section id="section">
+        <article class="intro Location">
+            <div class="content_h3bx">
+                <h3>오시는길</h3>
+                <ul class="route">
+                    <li>홈</li>
+                    <li>SUP소개</li>
+                    <li>오시는길</li>
+                </ul>
+            </div>
+
+            <div id="map">
+			</div>
+
+            <div class="text_box">
+              <ul>
+                <li><span class="left strong">지하철</span><span class="right icon1">지하철 5호선 장한평역 8번 출구 – 답십리역 방향으로 약 400m 전진 – 한국청년회의소 옆 미라보타워 건물에서 좌회전 - 직진하여 약 300m 이동 - 도착</span></li>
+                <li><span class="left strong">시내버스</span><span class="right icon2">청년회의소 역 하차 - 답십리역 방향으로 약 70m 전진 – 한국청년회의소 옆 미라보타워 건물에서 좌회전 - 직진하여 약 300m 이동 - 도착</span>
+                  <span class="right">
+                    <span>간선버스  :  130, 303, 370, 721, N30(심야)</span>
+                    <span>지선버스  :  2112, 2211,2233, 3216, 3220</span>
+                    <span>광역버스  :  9301, 9403</span>
+                    <span>공항버스  :  6013</span>
+                  </span>
+                </li>
+                <li>
+                  <span class="left strong">승용차</span>
+                  <span class="right icon3">답십리역 방면에서 오시는 경우</span>
+                  <span class="right">천호대로를 따라 직진 – 도시철도공사 건물에서 우회전 – 자동차시장길을 따라 527m 이동 - 좌회전 후 65m 이동 – 도착</span>
+                  <span class="right icon3">군자역 방면에서 오시는 경우</span>
+                  <span class="right">천호대로를 따라 직진 – 장한평역 교차로에서 장안동 사거리 방면으로 우회전 – 장한로를 따라 326m 이동 후 유턴 – 장한로를 따라 446m 이동 후 우회전 – 자동차 시장 3길을 따라 638m 이동 후 좌회전 – 자동차시장길을 따라 372m 이동 후 좌회전 – 65m 이동 - 도착</span>
+                </li>
+                <li>
+                  <span class="left strong">셔틀버스</span><span class="red_strong">화~일요일 운행(매주 월요일 휴무)</span></span><span class="right icon2">새활용버스 1호(25인승)</span>
+                  <span class="right"> 08:50 ~ 18:20 (답십리역 5번 출구 매시 10분, 40분, 장한평역 8번 출구 매시 20분, 50분 출발. 30분 단위 운행)</span>
+				  <span class="right icon3" style="background:none;">새활용버스 2호(45인승)</span>
+                  <span class="right">30인 이상 단체 교육 및 프로그램 참여자를 위한 픽업 서비스 (서울시내 및 인근 수도권 대상)</span>
+					<span class="right">(정류장 위치 및 세부 시간표는 커뮤니티 - 공지사항의 셔틀버스 게시물을 참조해 주시기 바랍니다)</span>
+                </li>
+              </ul>
+            </div>
+
+        </article>
+    </section>
+    <!--  //Main section 영역  -->
+    <!--  Footer 영역  -->
+    
+    <!--  //Footer 영역  -->
+    </div>
+
+    <!-- Google Map Start -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIb4yJMkcoQCHF-luIoXjHZ1KwS5d85qw&callback=initMap"></script> -->
+
+    <!--  //Main section 영역  -->
+    <!-- <script src="/js/map.js"></script> -->
+	<script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery.bxslider.min.js"></script>
+  
+	<script>
+      function initMap() {
+        var uluru = {lat: 37.558937 , lng: 127.058179};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2YyLn52yCseiu2f1N1ks0VkvVB9vaMEc&callback=initMap">
+    </script>
+</body>

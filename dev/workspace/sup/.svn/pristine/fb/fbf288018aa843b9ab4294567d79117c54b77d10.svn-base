@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>서울새활용플라자</title>
+<link rel="stylesheet" href="../css/SUP_Introduction.css">
+
+	<!--[if lt IE 9]>
+      <script src="../js/reset/html5shiv.js"></script>
+      <script src="../js/reset/respond.min.js"></script>
+      <script src="../js/reset/IE9.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="intro_wrap">
+    <!--  Main section 영역  -->
+    <section id="section">
+        <div class="sub_bg"><h3>서브메인 이미지</h3></div>
+        <div class="intro introduction">
+            <div class="icon"><img src="../img/introduction/up_icon.png" alt="물음표 아이콘"></div>
+            <p>새활용이란</p>
+            <div class="Donwicon"><img src="../img/introduction/arrowDown_icon.png" alt="아래 화살표 아이콘"></div>
+            <p>업사이클링</p>
+            <div class="icon01">
+                <img src="../img/introduction/up_icon1.png" alt="아이콘">
+                <img src="../img/introduction/up_icon2.png" alt="아이콘">
+            </div>
+            <p class="text01">Re-Cycling + Grade</p>
+            <div class="textBox">
+                <p>새활용이란, 버려지는 자원에 디자인을 더하거나 활용방법을 바꿔 새로운 가치를 만들어내는 업사이클링(Upcycling)의 우리말입니다.<br> 물건을 처음 만들 때부터 환경과 자연을 생각하며 쓸모가 없어진 후까지 고려하는 것, 물건을 가치 있게 오래 사용하도록 의미를 담아 만드는 것까지.<br>새활용은 환경을 지키고 자원순환을 실천할 수 있는 자원순환의 새로운 방법입니다</p>
+            </div>
+        </div>
+        <div class="up_img"><img src="../img/introduction/up_img.png" alt=""></div>
+    </section>
+    <!--  //Main section 영역  -->
+    </div>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery.bxslider.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/index.js"></script>
+</body>

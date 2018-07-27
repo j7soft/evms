@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>서울새활용플라자</title>
+<link rel="stylesheet" href="../css/SUP_Introduction.css">
+
+	<!--[if lt IE 9]>
+      <script src="../js/reset/html5shiv.js"></script>
+      <script src="../js/reset/respond.min.js"></script>
+      <script src="../js/reset/IE9.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="intro_wrap">
+    <!--  Main section 영역  -->
+    <section id="section">
+        <div class="sub_bg"><h3>서브메인 이미지</h3></div>
+        <article class="intro business">
+            <div class="content_h3bx">
+                <h3>인사말</h3>
+                <div class="h3_icon"><img src="../img/introduction/intro_icon.png" alt=""></div>
+            </div>
+            
+            <article class="Box01">
+                <div class="leftBox">
+                    <img src="../img/introduction/busin_logo.png" alt="서브페이지 로고이미지">
+                    <p><span>위치</span> 서울시 성동구 자동차시장길 49</p>
+                    <p><span>주요공간</span> 건물 연면적 16.540m(B2~5F)</p>
+                    <p><span>준공일</span> 2017.03.31</p>
+                    <p><span>개관일</span> 2017.09.05</p>
+                </div>
+                <div class="rightBox">
+                    <h4>서울새활용플라자</h4>
+                    <h4>SEOUL UPCYCLING PLAZA</h4>
+                    <p>「자원순환도시 서울시 비전 2030」을 토대로 새활용(Upcycling)에 대한 환경적, 사회적, 경제적 인식을 넓히고,<br>업사이클링 기반 산업의 생태계를 육성하고자 합니다.</p>
+                    <div class="iconBox">
+                    <div><img src="../img/introduction/busin_icon1.png" alt=""></div>
+                    <div><img src="../img/introduction/busin_icon2.png" alt=""></div>
+                    </div>
+                    <div class="imgBox">
+                        <img src="../img/introduction/busin_img.png" alt="서울새활용플라자 건물 밤 이미지">
+                    </div>
+                </div>
+            </article>
+            <article class="Box02 clear">
+                <h4>SUP 소개</h4>
+                <p>서울새활용플라자는, 일상에서 경험하는 생산·유통·소비의 가치 있는 건강한 순환이 시민의 참여로 이루어지는 곳 입니다. 다양한 교육(워크숍, 공연, 전시 등)을 통해 시민 스스로 새로운 라이프스타일을 만들어갑니다.</p>
+                <div class="textBox">
+                    <div class="leftBox">
+                        <p><span>서울비전 2030</span> 소울형 자원순환 생태계 완성</p>
+                        <p><span>서울새활용플라자 비전</span> 세계속의 100% 새활용 중심</p>
+                        <p><span>서울새활용플라자 역학</span> 시민과 함께하는 새활용 라이프 스타일 캠퍼스</p>
+                        <div class="textBox2">
+                            <p>1. 건강한 순환을 위한 새활용 체험교육</p>
+                            <p>2. 균형있는 생산, 참여하는 유통, 지혜로운 소비</p>
+                            <p>3. 새활용을 실천하는 시민 운동</p>
+                        </div>
+                    </div>
+                    <div class="rightBox">
+                        <div><img src="../img/introduction/busin_img2.jpg" alt=""></div>
+                    </div>
+                </div>
+            </article>
+            <article class="Box03 clear">
+                <h4>장한평 일대 중장기 추진 방향</h4>
+                <p>2017년까지 서울새활용플라자를 중심으로 중고차 매매시장, 자동차산업문화관, 중랑물재생센터 ,하수도과학관, 공원 등이 어우러진 국내 최대 업사이클 타운을 조성 할 예정입니다.</p>
+                <div class="textBox">
+                    <div class="leftBox">
+                        <div><p>차세대 산업 일거리 창출,</p>
+                        <p>시민 가치소비문화 확산,</p>
+                        <p>새로운 경험을 제공하는</p>
+                        </div>
+                        <div><img src="../img/introduction/busin_icon7.png" alt=""></div>
+                        <p><span>국내 최대 업사이클 문화 산업의<br>발신지 조성</span></p>
+                    </div>
+                    <div class="rightBox">
+                        <div><img src="../img/introduction/busin_map.png" alt=""></div>
+                    </div>
+                </div>
+            </article>
+        </article>
+        
+    </section>
+    <!--  //Main section 영역  -->
+    </div>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery.bxslider.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/index.js"></script>
+</body>

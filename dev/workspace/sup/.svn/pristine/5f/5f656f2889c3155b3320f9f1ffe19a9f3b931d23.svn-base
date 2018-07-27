@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		
+
+
+
+		.popup{
+			width: 100%; height: 100%;
+			position: fixed;
+			left: 0; top: 0;
+
+			display: none;
+		}
+		.popup .popup_bg{
+			width: 100%; height: 100%;
+			position: absolute;
+			left: 0; top: 0;
+			background-color: rgba(0, 0, 0, .5);
+		}
+		.popup .popup_body{
+			background-color: #fff;
+			position: absolute;
+			left: 50%; top: 50%;
+
+			-webkit-transform: translate(-50%, -50%);
+			-moz-transform: translate(-50%, -50%);
+			-o-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+
+			box-shadow: 0 8px 16px #464646;
+		}
+		.popup .popup_title{
+			font-size: 16px;
+			color: #000;
+			font-weight: bold;
+			border-bottom: 1px solid #e1e1e1;
+			padding: 25px;
+		}
+		.popup .popup_content{
+			
+		}
+		.popup .popup_content .img_box{
+			text-align: center;
+			padding: 35px 0 15px;
+		}
+		.popup .popup_content .img_box img{}
+		.popup .popup_content p{
+			font-size: 14px;
+			color: #666666;
+			padding: 0 25px 25px;
+		}
+
+
+
+
+
+
+
+	</style>
+
+
+</head>
+<body>
+
+
+	<div class="email_popup popup">
+		<div class="popup_bg"></div>
+		<div class="popup_body">
+			<div class="popup_title">
+				이메일무단수집거부
+			</div>
+			<div class="popup_content">
+				<div class="img_box">
+					<img src="../img/common/email_icon.png" alt="이메일 아이콘">
+				</div>
+				<p>서울새활용플라자 홈페이지에 게시된 이메일 주소가 전자우편 수집<br>
+					프로그램이나 그 밖의 기술적 장치를 이용하여 무단으로 수집되는 것을 거부하여<br>
+					이를 위한 시 정보통신망법에 의해 형사처벌됨을 유념하시기 바랍니다.</p>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

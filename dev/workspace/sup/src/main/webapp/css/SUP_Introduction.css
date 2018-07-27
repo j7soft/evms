@@ -1,0 +1,794 @@
+﻿@charset "utf-8";
+@import url(common.css);
+
+
+/* sub 페이지 메인 이미지*/
+#section .sub_bg{width: 100%; height: 446px; background:url(../img/introduction/sub_main.png) no-repeat;}
+#section .sub_bg h3{text-indent: -9999px;}
+/* #section .intro{max-width:1200px;width:90%; margin:90px auto 0;} */
+
+/* 2Depth H3 */
+/* .content_h3bx{margin: 100px auto;color: #8f1743;text-align:center}
+.content_h3bx h3{position:relative;font-size: 1.687rem;font-weight:500}
+.content_h3bx h3::after{content:"";display:block;width:190px;height:1px; background-color: #8f1743; position: absolute; bottom: -15px;left:50%;margin-left:-95px}
+.h3_icon{margin:75px auto 150px;position:relative}
+.h3_icon::after{content:"";display:block;width:85px;height:4px; background-color: #8f1743; position: absolute; bottom: -45px;left:50%;margin-left:-42px} */
+
+
+/* Introduction Message */
+/* .content_message{width:1200px;margin:0 auto}
+.content_message h4{width: 522px;height: 50px;margin:0 auto;background: url('../img/introduction/message_h4.png') no-repeat}
+.content_message h4 p{width: 256px;line-height: 50px;display: inline-block;color: #fff;text-align: center}
+.message_wrap{margin-top: 80px}
+.ceo_img{width: 30%;float: left;text-align: center}
+.message_box{width: 70%;float: right;}
+.message_box h5{font-size: 1.125rem;font-weight: 500}
+.message_box ul{width:670px;margin-top: 30px;margin-bottom: 60px;}
+.message_box ul li{line-height: 30px;margin-bottom: 30px;font-size: 0.875rem}
+.message_box p{font-weight: 500}
+.message_box p span{font-size: 1.687rem} */
+.content_message{width:1200px;margin:0 auto}
+.content_message h4{width: 522px;height: 50px;margin:0 auto;background: url('../img/introduction/message_h4.png') no-repeat}
+.content_message h4 p{width: 256px;line-height: 50px;display: inline-block;color: #fff;text-align: center}
+.content_message .tab_box2{display: none}
+.message_wrap{margin-top: 80px}
+.ceo_img{width: 30%;float: left;text-align: center}
+.message_box{width: 100%;float: none;}
+.message_box h5{font-size: 1.625rem;font-weight: 500;border-bottom: 2px solid #ddd;padding-bottom: 24px;text-indent: 15px;}
+.message_box h6{font-size: 1.7em;font-weight: 500;margin-top: 30px;margin-bottom: 30px;}
+.message_box ul{width:80%;margin-bottom: 60px;}
+.message_box ul li{line-height: 1.5;margin-bottom: 30px;}
+.message_box ul li p{font-size: 1rem;color: #888;}
+.message_box p{font-weight: 300;}
+.message_box p span{font-size: 1.687rem}
+
+
+/* 새활용이란 */
+.introduction{width:100%;}
+/* .upcycling{width:90%;max-width:1200px;overflow:hidden;margin:0 auto;padding-top:30px;}
+.upcycling .icon{float:left; width:30%;}
+.introduction .textBox{float:right;width:60%;padding-right:10%;}
+.introduction .textBox h4{font-size:30px;font-weight:bold;}
+.introduction .textBox h4 span{color:#63b94e;}
+.introduction p{margin-top:20px; margin-bottom:5px;font-size:20px;color:#000;font-weight:bold;word-break:keep-all;}
+.introduction p + p{font-size:16px;color:#666;font-weight:normal;}
+.introduction .text01{position:relative; top:-60px;font-size:22px; font-weight: normal; color:#8f1843;}
+#section .up_img{margin-top:130px;}
+#section .up_img>img{width:100%;} */
+.introduction .con{width:90%;max-width:900px; margin:0 auto;}
+.introduction .summary_tit{margin-bottom:35px;text-align:center}
+.introduction .summary_con01 dt{margin-bottom:30px;}
+.introduction .summary_con02 dt{margin:60px auto 30px;}
+.introduction .summary_con01 dt img{width:100%}
+.introduction .summary_con02 dt img{width:100%;}
+.introduction .summary_con02 dd img{width:100%;}
+/* 사업 소개 */
+.textBox_2{padding:50px 0;padding-left:55px;}
+.textBox_2 p{margin-bottom:15px;overflow:hidden;}
+.textBox_2 span{display:block;float:left;padding:5px 0px;border-radius:10px;border:2px solid #63b647; color:#63b647;width:30%;box-sizing:border-box;text-align:center}
+.textBox_2 em{display:block;float:right;width:70%;box-sizing:border-box;padding-left:20px;line-height:35px;}
+.business .Box01{width:95%;max-width:1200px;margin:0 auto;overflow:hidden;position:relative;}
+.business .Box01 .leftBox{width:23.333%; float:left;}
+.business .Box01 .leftBox>div{position:absolute;bottom:100px}
+.business .Box01 .leftBox p{line-height: 2; font-size:0.9rem; color:#333;}
+.business .Box01 .mobile_box{margin: 30px 60px; padding-top: 30px;border-top: 1px solid #ddd;}
+.business .Box01 .mobile_box p{line-height: 2; font-size:0.9rem; color:#666;}
+.business .Box01 .mobile_box p span{padding-right:8px;font-size: 0.9rem; color:#000;}
+.business .Box01 .leftBox p span, .business .Box01 .leftBox p strong{padding-right:8px;font-size: 0.9rem; color:#000;}
+.business .Box01 .rightBox{width:76%; margin-top:30px;  float:right;}
+.business .Box01 .rightBox h4{padding-left:55px; line-height:1.5; font-size:35px;font-weight:bold;}
+.business .Box01 .rightBox > p{margin-top:15px; padding-left:55px; line-height: 1.5; font-size:16px;color:#666;}
+.business .Box01 .rightBox .iconBox{position:absolute; top:10px; right:10px;overflow:hidden;}
+.business .Box01 .rightBox .iconBox>div{float:left;}
+.business .Box01 .rightBox .iconBox div img{cursor: pointer;}
+.business .Box01 .rightBox .imgBox{margin-top:20px;float:right;}
+.business .Box01 .rightBox .imgBox img{width: 100%;}
+.business .Box02{padding-top:50px;border-top:1px solid #d3d5d6; clear:both;max-width:1200px;margin:0 auto;width:95%;}
+.business .Box02 h4{margin-bottom:25px;font-size:35px; text-align: left;font-weight: bold;}
+.business .Box02>p:nth-child(2){
+    width: 800px;
+    margin: auto;
+    line-height: 1.8;
+    font-size: 0.985rem;
+    color: #58595b;
+    text-align: center;
+   	letter-spacing: -1px;
+}
+.business .Box02 .textBox{width:100%; margin-top:80px;}
+.business .Box02 .textBox .leftBox{margin-top:10px; float:left;}
+.business .Box02 .textBox .leftBox p{line-height: 2; color:#58595b;}
+.business .Box02 .textBox .leftBox p span{width:190px; margin-right:20px; display: inline-block; font-size:1rem; color:#000;letter-spacing: -0.5px;}
+.textBox2{padding:20px 0px 0px;}
+.textBox2 span{padding:0px; border:none;width:auto;font-size:20px;font-weight:bold;margin-right:15px;}
+.business .Box02 .textBox .leftBox .textBox2{width:500px; height:160px; margin-top:34px; padding:30px; border:1px solid #e8e9e9; font-size:0.9rem; color:#808184; box-sizing:border-box;}
+.business .Box02 .textBox .rightBox{float:right;}
+.business .Box03{margin-top:100px;}
+.business .Box03 h4{margin-bottom:25px; font-size:1.813rem; text-align: center;font-weight: 400;letter-spacing: -1px;}
+.business .Box03>p:nth-child(2){
+    width: 800px;
+    margin: auto;
+    line-height: 1.8;
+    font-size: 0.985rem;
+    color: #58595b;
+    text-align: center;
+    letter-spacing: -1px;
+}
+.business .Box03 .textBox{width:100%; margin-top:40px;}
+.business .Box03 .textBox .leftBox{margin-top:120px; margin-left:82px; float:left;}
+.business .Box03 .textBox .leftBox>div:nth-child(1){ height: 100px; border:1px solid #e8e9e9; padding:13px; text-align: center; box-sizing:border-box;}
+.business .Box03 .textBox .leftBox>div:nth-child(1) p{line-height: 1.5;}
+.business .Box03 .textBox .leftBox>div:nth-child(2){margin:30px 0;text-align: center;}
+.business .Box03 .textBox .leftBox>p:nth-last-child(1){line-height: 1.5; position:relative; font-size:1.400rem;color:#58595b; text-align: center;font-weight: bold;}
+.business .Box03 .textBox .leftBox>p:nth-last-child(1) span{border-bottom:1px solid #939090;}
+.business .Box03 .textBox .rightBox{float:right;}
+
+/* 새활용 거리 */
+.street_area{
+  width: 1200px;
+  margin: 0 auto;
+}
+.box_street{
+  height: 260px;
+  margin-bottom: 60px;
+}
+.box_street *{
+  box-sizing: border-box;
+}
+.box_street .box_left{
+  float: left;
+  position: relative;
+  width: 50%; height: 100%;
+  padding: 20px 55px 30px 20px;
+  border-bottom: 1px solid #d7d7d7;
+}
+.box_street h4{
+  margin-bottom: 10px;
+  font-size: 24px; line-height: 36px; color: #8f1843;
+}
+.box_street p{
+  line-height: 28px; color: #6d6e70;
+  word-break: keep-all;
+}
+.box_street .btn_more{
+  position: absolute; right: 60px; bottom: 30px;
+  font-size: 12px; color: #6d6e70;
+}
+.box_street .btn_more p{display:inline-block;}
+.box_street .btn_more:after{
+  content: ">";
+  display:inline-block;
+  margin-left:5px;
+}
+.box_street .box_right{
+  float: right;
+  width: 50%; height: 100%;
+}
+.box_street .box_right img{
+  float: left;
+  width: 100%; height: 100%;
+}
+.box_street .box_img2n img{
+  width: 49%;
+}
+.box_street .box_img2n img:nth-of-type(2){
+  float: right;
+}
+.list_street{
+  padding: 0 37px 60px;
+}
+.list_street li{
+  float: left;
+  width: 375px;
+  text-align: center;
+}
+.list_street h5{
+  margin: 35px 0;
+  font-size: 30px; font-weight: bold; color: #333;
+}
+
+/* SUP소개 조직도 시작 */
+.Organization{}
+.Organization  > .img_box{
+	margin-bottom: 100px;
+	text-align: center;
+}
+.Organization > .img_box img:nth-child(2){display:none;}
+.Organization .section{
+	width: 90%; max-width:1200px; margin: 0 auto 70px;
+}
+
+.Organization .section:last-child{
+	margin-bottom: 0;
+}
+
+.Organization .section .team_title{
+	font-size: 22px;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 38px;
+	text-align:center;
+	position: relative;
+}
+/* .Organization .section .team_title:after{
+	content: '';
+	display: block;
+	width: 14px; height: 14px;
+	background-color: #333333;
+	position: absolute;
+	left: -30px; top: 50%;
+	margin-top: -6px;
+} */
+/* .Organization .section .team{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-top: 3px solid #ebebeb;
+	border-bottom: 3px solid #ebebeb;
+}
+ */
+.Organization .section .team .info_box{
+	width:22%;
+	margin: 0 auto;
+	text-align: center;
+	border:1px solid #ccc;
+	padding: 20px 0;
+}
+
+.Organization .section .team .info_box:nth-child(n+5){
+	margin-top: 50px;
+}
+
+.Organization .section .team .info_box .img_box{
+	text-align: center;
+	margin-bottom: 19px;
+}
+
+.Organization .section .team .info_box .name{
+	font-size: 18px;
+	color: #666666;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.Organization .section .team .info_box ul{
+	margin-bottom: 17px;
+	font-weight:300;
+}
+.Organization .section .team .info_box ul li{
+	width: 85%; margin: auto;
+	font-size: 13px;
+	color: #858585;
+}
+
+.Organization .section .team .info_box ul li span{
+	position: relative;
+}
+
+/*.Organization .section .team .info_box ul li span:after{
+	content: '';
+	display: block;
+	width: 4px; height: 4px;
+	background-color: #A6A6A6;
+	border-radius: 5px;
+	position: absolute;
+	left: -10px; top: 50%;
+
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-o-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}*/
+
+.Organization .section .team .info_box .phone{
+	font-size: 18px;
+	color: #666666;
+}
+.Organization .section1 .team .info_box{
+	padding:86px 0;
+}
+.Organization .section2 .team .info_box,
+.Organization .section3 .team .info_box{
+	height: 228px;
+	float: left;
+	margin-right:3%;
+}
+.Organization .section2 .team .info_box:nth-child(4){
+	margin-right:0;
+}
+.Organization .section3 .team .info_box:nth-child(4){
+	margin-right:0;
+}
+.img_boc_hr{padding-left:55px;}
+
+/* 오시는길 */
+.Location{}
+#map{
+	width: 50%; height:300px;
+	margin: auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.content_h3bx .location{
+	background-image: url(/img/introduction/location.png);
+	height: 400px;
+   	width: 700px;
+  	border: 1px solid gray;
+   	margin: 0 auto;
+   	margin-bottom: 50px;
+	box-sizing: border-box;
+}
+.Location .text_box ul li:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.Location .text_box{
+	width: 898px; margin: auto;
+}
+.Location .text_box ul{}
+.Location .text_box ul li{
+	margin-bottom: 30px;
+}
+.Location .text_box ul li span{
+	display: block;
+}
+.Location .text_box ul li span.red_strong{
+	font-weight: bold;
+	color: red;
+}
+.Location .text_box ul li span.left{
+	float: left;
+	width: 14%;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.Location .text_box ul li span.right{
+	float: right;
+	width: 86%;
+	color: #797979;
+	font-size: 0.9rem;
+	margin-bottom: 10px;
+
+	padding-left: 3.5%;
+	box-sizing: border-box;
+}
+
+.Location .text_box ul li span.right span{
+	text-indent: 12px;
+	margin-bottom: 8px;
+	position: relative;
+}
+.Location .text_box ul li span.right span:last-of-type{
+	margin-bottom: 0;
+}
+.Location .text_box ul li span.right span:after{
+	content: '';
+	display: block;
+	width: 10px; height: 10px;
+	background-color: #000;
+	position: absolute;
+	left: 0; top: 50%;
+	margin-top: -5px;
+	border-radius: 50%;
+}
+.Location .text_box ul li span.right span:nth-of-type(1):after{background-color: #036cd9;}
+.Location .text_box ul li span.right span:nth-of-type(2):after{background-color: #76c617;}
+.Location .text_box ul li span.right span:nth-of-type(3):after{background-color: #eb3124;}
+.Location .text_box ul li span.right span:nth-of-type(4):after{background-color: #f1bc32;}
+
+.Location .text_box ul li span.icon1{
+	background: url(../img/introduction/img_subway.svg) 0 0 no-repeat;
+	line-height: 1.5;
+	font-weight: bold;
+	margin-bottom: 3px;
+	background-size:20px 20px;
+}
+
+.Location .text_box ul li span.icon2{
+	background: url(../img/introduction/img_bus.svg) 0 0 no-repeat;
+	line-height: 1.5;
+	font-weight: bold;
+	margin-bottom: 3px;
+	background-size:20px 20px;
+}
+
+.Location .text_box ul li span.icon3{
+	background: url(../img/introduction/img_car.svg) 0 0 no-repeat;
+	line-height: 1.5;
+	font-weight: bold;
+	margin-bottom: 3px;
+	background-size:20px 20px;
+}
+.Location .text_box ul li:last-of-type span.icon2{
+	height: 26px;
+}
+.mobile_img{
+	display: none;
+}
+.mobile_box{
+	display: none;
+}
+.mobile_hidden{
+	display: none;
+}
+
+/* 셔틀버스 예약 */
+.bus .request_area{
+	width:100%; max-width:1200px;
+} 
+.shuttle_bus_box .bus_info_box{margin-bottom:100px;}
+.shuttle_bus_box .bus_info_box ul{
+	overflow:hidden;
+}
+.shuttle_bus_box .bus_info_box ul li{
+	float:left;
+	width:39%; padding: 0 5%;
+	line-height:2em;
+	padding-bottom:20px;
+}
+.shuttle_bus_box .bus_info_box ul li:nth-child(2){
+	border-left:1px solid #ccc;
+}
+.shuttle_bus_box .bus_info_box ul li p{
+	font-size: 1.675rem;
+    font-weight: bold;
+	text-align:center;
+	padding:20px 0 30px 0;
+}
+.shuttle_bus_box .bus_info_box ul li dt{
+	font-size:1.25rem;
+	color:#666;
+}
+.shuttle_bus_box .bus_info_box ul .bus_info2 dd:nth-child(2){
+	font-weight:bold;
+	color:#000;
+}
+.shuttle_bus_box .bus_info_box ul .bus_info1 dd:nth-child(3){
+	font-weight:bold;
+	color:red;
+}
+.bus_reservation{
+	overflow:hidden;
+	margin-bottom:80px;
+}
+.bus_reservation h4{
+    font-size: 1.675rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0 40px 0;
+}
+.bus_reservation #calendar{
+	width:47%;
+	float:left;
+}
+.bus_reservation .input_hr{
+	float:right;
+	width:47%;
+	margin-top:0;
+}
+.bus_reservation .input_hr li:last-child div{
+	float:none;
+	padding-left:0;
+	width:100%;
+	border:0;
+}
+
+@media all and (max-width:1201px) {	
+	.textBox_2 span{width:100%;}
+	.textBox_2 em{width:100%;     text-align: center;}
+	.textBox_2 p{text-align: center;}
+	.img_boc_hr{paddin:0;}
+	.img_boc_hr img{width:100%;}
+	.introduction .textBox>p{
+		line-height: 1.5;
+	}
+	
+	.content_message{
+		width: 100%;
+	}
+	.message_box ul{
+		width: 100%;
+	}
+	
+	.Organization > .img_box img{
+		width: 100%;
+	}
+	
+	.business .Box01 .rightBox h4{
+		padding-left:0;
+	}
+
+	.business .Box01 .rightBox > p{
+		padding-left:0;
+	}
+
+	.business .textBox_2{
+		padding-left:0;
+	}
+  .street_area{
+    width: 600px;
+  }
+  .box_street {
+    height: auto;
+  }
+  .box_street .box_left, .box_street .box_right{
+    float: none;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .list_street li{
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width:1171px) {
+	.business .Box01 .leftBox{
+		display: none;
+	}
+	.business .Box01 .rightBox{
+		float: none;
+		width: 100%;
+	}
+	.mobile_box{
+		display: block;
+	}
+	.business .Box01 .rightBox .imgBox{
+		width: 80%; margin: 80px auto 0;
+		float: none;
+	}
+	.business .Box01 .rightBox h4{
+		width: 85%;
+		margin: auto;
+		padding-left: 6%;
+	}
+	.business .Box01 .rightBox > p {
+		width: 85%;
+		margin: auto;
+	    margin-top: 20px;
+	    line-height: 1.5;
+	    font-size: 0.9rem;
+		padding-left:5%;
+	}
+	img.mobile_hidden{
+		display: inline-block;
+		margin-top: 10px;
+	}
+	.business .Box02 .textBox .leftBox{
+		float: none;
+		margin-bottom: 30px;
+	}
+	.business .Box02 .textBox{
+		width: 600px; margin: 80px auto 40px;
+	}
+	.business .Box02 .textBox .leftBox .textBox2{
+		width: 600px;
+		margin: auto;
+		margin-top: 20px;
+	}
+	.business .Box02 .textBox .rightBox{
+		float: none;
+	}
+	.business .Box02 .textBox .rightBox div{
+		text-align: center;
+	}
+	.business .Box02 .textBox .rightBox img{
+		width: 90%;
+	}
+	.business .Box03 .textBox .leftBox{
+		float: none;
+		margin: 60px auto 30px;
+	}
+	.business .Box03 .textBox .rightBox{
+		float: none;
+	}
+	.business .Box03 .textBox .rightBox div{
+		width: 80%; margin: auto;
+	}
+	.business .Box03 .textBox .rightBox img{
+		width: 100%;
+	}
+	.business .Box03>p:nth-child(2){
+		width: 80%;
+	}
+	.business .Box02>p:nth-child(2){
+		width: 80%;
+	}
+
+	#map{
+		width:100%;
+	}
+
+	.business .textBox_2{
+		padding:50px 11%;
+	} 
+}
+
+@media all and (max-width:1023px){
+	
+	.Organization .section1 .team .info_box, .Organization .section2 .team .info_box, .Organization .section3 .team .info_box{
+		width: 46%;margin-bottom:20px;
+	}
+
+	.Organization .section .team .info_box:nth-child(n+5){
+		margin-top: 0;
+	}
+
+}
+
+
+@media all and (max-width:960px) {
+	.upcycling{width:100%;float:none;}
+	.message_box{
+		width: 90%;
+		margin: auto;
+	}
+	
+	.introduction .textBox {
+		width: 85%; margin: auto;
+	    padding: 5% 7%;
+		float: none;
+	}
+
+	.Location .text_box{
+		width: 90%;
+	}
+
+	.Location .text_box ul li span.right{
+		padding-left: 30px;
+	}
+	.bus_reservation #calendar{
+		width:100%;
+		float:none;
+	}
+	.bus_reservation .input_hr{
+		float:none;
+		width:100%;
+		margin-top:50px;
+	}
+
+
+}
+
+
+@media all and (max-width:700px) {
+.Organization > .img_box img:nth-child(1){display:none;}
+.Organization > .img_box img:nth-child(2){display:block;width:60%;margin:0 auto;}
+}
+
+
+@media all and (max-width:600px) {
+	.business .Box02 .textBox{
+		width: 100%;
+	}
+	.business .Box02 .textBox .leftBox p{
+		line-height: 1.5;
+		width: 80%;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	.business .Box02 .textBox .leftBox p span{
+		width: 100%;
+		display: block;
+	}
+	.business .Box02 .textBox .leftBox .textBox2{
+		width: 90%;
+		padding: 15px;
+		height: auto;
+	}
+	.business .Box02 .textBox .leftBox p:last-of-type{
+		margin-bottom: 0;
+	}
+
+	.Organization .section1 .team .info_box, .Organization .section2 .team .info_box, .Organization .section3 .team .info_box{
+		width: 100%;height: auto;
+		margin-bottom: 20px;
+	}
+	
+	.Location .text_box ul li span.left{
+		float: none;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.Location .text_box ul li span.right{
+		float: none;
+		width: 100%;
+	}
+	.shuttle_bus_box .bus_info_box ul li{
+	float:none;
+	width:100%;
+	box-sizing: border-box;
+	}
+	.shuttle_bus_box .bus_info_box ul li:nth-child(2){
+		border:0;
+	}
+  .street_area{
+    width: 100%;
+    }
+  .list_street li{
+    width: 100%;
+  }
+  .box_street .btn_more{
+    bottom: 15px;
+  }
+}
+
+@media all and (max-width:480px) {
+	.Location .text_box ul li span.right span{font-size: 12px;}
+	.introduction .textBox{
+		    margin: 0 auto 50px;
+	}
+	.up_img{
+		display: none;
+	}
+	.mobile_img{
+		display: block;
+	}
+	.mobile_img img{
+		width: 100%;
+	}
+	.business .Box01 .rightBox > p{
+		width: 90%;
+		padding-left:0%;
+	}
+	.business .Box01 .rightBox h4{
+	    font-size: 1.513rem;
+		width:88%;
+		padding-left:0%;
+	}
+	.business .Box01 .mobile_box{
+		width: 90%;
+		margin: 30px auto;
+	}
+/* 	.route{
+	    top: -15px;
+	} */
+	.business .Box01 .rightBox .imgBox{
+		width: 90%;
+	}
+	.business .Box03 h4{
+	    font-size: 1.513rem;
+	}
+	.business .Box03>p:nth-child(2){
+		font-size: 0.885rem;
+	}
+	.business .Box03 .textBox .rightBox div{
+		width: 90%;
+	}
+	.business .Box03 .textBox .leftBox>p:nth-last-child(1){
+		font-size: 1.3rem;
+	}
+
+	.business .textBox_2{
+		padding: 50px 5%;
+		padding-left: 6%;
+	}
+
+	.business .img_boc_hr{
+		padding-left:9%;
+	}
+	
+	#location_img{
+		width: 90%;
+	}
+	
+}
+
+
+
+
+@media all and (max-width:375px) {
+	
+	.introduction .icon01 img:nth-child(1){
+		left: -100px;
+		top: -60px;
+	}
+	.introduction .icon01 img:nth-child(2){
+		left: 100px;
+		top: -60px;
+	}
+
+.Organization > .img_box img:nth-child(2){width:70%;}
+}
+
+
+

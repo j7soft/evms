@@ -1,0 +1,149 @@
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>서울새활용플라자</title>
+<link rel="stylesheet" href="/css/SUP_Map.css">
+
+	<!--[if lt IE 9]>
+      <script src="../js/reset/html5shiv.js"></script>
+      <script src="../js/reset/respond.min.js"></script>
+      <script src="../js/reset/IE9.js"></script>
+    <![endif]-->
+</head>
+
+
+<body>
+    <div id="map_wrap">
+
+    <!--  Main section 영역  -->
+    <section id="section">
+        <article class="sitemap">
+            <div class="content_h3bx">
+                <h3>사이트맵</h3>
+                <ul class="route">
+                    <li>홈</li>
+                    <li>사이트맵</li>
+                </ul>
+            </div>
+            <div class="sitemap_area">
+                <ul class="sitemap_1depth clear">
+                  <li>
+                      <div class="sitemap_1depth_title">SUP 소개</div>
+                      <div class="sitemap_2depth_line"></div>
+                      <ul class="sitemap_2depth">
+                        <li><a href="/introduce.do?type=Introduction">새활용이란</a></li>
+						<li><a href="/introduce.do?type=Business">새활용플라자소개</a></li>
+						<li><a href="/introduce.do?type=Message">인사말</a></li>
+						<li><a href="/introduce.do?type=Organization">조직도</a></li>
+						<li><a href="/introduce.do?type=Location">오시는길</a></li>
+						<li><a href="/introduce.do?type=Floor">층별안내</a></li>
+						<li><a href="/introduce.do?type=Introduction_Street">새활용거리</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <div class="sitemap_1depth_title">주요사업</div>
+                      <div class="sitemap_2depth_line"></div>
+                      <ul class="sitemap_2depth">
+                        <li><a href="/board.do?type=move">입주시설임대</a></li>
+						<li><a href="/studio.do?type=Studio_Display">전시</a></li>
+						<li><a href="/studio.do?type=Studio_Rent">대관</a></li>
+						<li><a href="/studio.do?type=Studio_Education">교육</a></li>
+						<li><a href="/studio.do?type=Studio_Learning">새활용탐방</a></li>
+						<li><a href="/studio.do?type=Studio_Weekly">위클리마켓</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <div class="sitemap_1depth_title">공간시설</div>
+                      <div class="sitemap_2depth_line"></div>
+                      <ul class="sitemap_2depth">
+                        <li><a href="/display.do?type=SUP_Display">전시장</a></li>
+						<li><a href="/display.do?type=Display_Studio">스튜디오</a></li>
+						<li><a href="/display.do?type=Display_Education">교육실</a></li>
+						<li><a href="/display.do?type=Display_Fablab">꿈꾸는공장</a></li>
+						<li><a href="/display.do?type=Display_Outdoors">야외시설</a></li>
+						<li><a href="/display.do?type=Display_Restrant">레스토랑</a></li>
+						<li><a href="/display.do?type=Display_Cafe">카페</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <div class="sitemap_1depth_title">대관 및 예약</div>
+                      <div class="sitemap_2depth_line"></div>
+                      <ul class="sitemap_2depth">
+                          <li><a href="/book.do?type=rent">대관 예약</a></li>
+                          <li><a href="/book.do?type=edu">교육 예약</a></li>
+                          <li><a href="/book.do?type=trip">새활용탐방 예약</a></li>
+                          <li class="sitemap_3depth">
+                              <div><a href="/book.do?type=trip">- 정기새활용탐방 예약</a></div>
+                              <div><a href="/book.do?type=trip">- 단체새활용탐방 예약</a></div>
+                          </li>
+                          <li><a class="busBtn" style="cursor:pointer;">셔틀버스 예약</a></li>
+						<li><a href="/book.do?type=rent_weekly">마켓예약</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <div class="sitemap_1depth_title">소재정보</div>
+                      <div class="sitemap_2depth_line"></div>
+                      <ul class="sitemap_2depth">
+                        <li><a href="/introduce.do?type=MaterialsI">사업개요</a></li>
+						<li><a href="/introduce.do?type=MaterialsC">소재이야기</a></li>
+						<li><a href="/board.do?type=material">소재자료실</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <div class="sitemap_1depth_title">커뮤니티</div>
+                      <div class="sitemap_2depth_line"></div>
+                      <ul class="sitemap_2depth">
+                        <li><a href="/board.do?type=notice">공지사항</a></li>
+						<li><a href="/board.do?type=news">보도자료</a></li>
+						<li><a href="/board.do?type=reference">자료실</a></li>
+						<li><a href="/board.do?type=story">스토리</a></li>
+						<li><a href="/board.do?type=freeboard">자유게시판</a></li>
+						<li><a href="/customer.do">고객센터</a></li>
+						<!--<li><a href="/board.do?type=gallery">갤러리</a></li>-->
+                      </ul>
+                  </li>
+                </ul>
+            </div>
+
+        </article>
+    </section>
+    </div>
+
+
+<style>
+	#section{width:100%;}
+    .sitemap{position:relative;}
+    .sitemap_area{width:1209px; margin: 0 auto;}
+	@media all and (max-width:1202px) {
+	
+	.sitemap_area{width:100%;}
+}
+
+</style>
+<script>
+	$(".busBtn").click(function(){
+			var text = $('.header_login li:nth-child(2) a').html();
+			if (text == "로그인"){
+				location.href='/loginUsr.do';
+			}else{
+			// http://61.97.54.228/mvpage.do?NTT_ID=tripT
+				location.href="/bookinsert.do?NTT_ID=bus&BBS_ID=";
+			// location.href="/bookinsert.do?type=tripT&BBS_ID=";
+			// http://61.97.54.228/bookinsert.do?type=tripT&BBS_ID=
+		}
+		});
+</script>
+
+
+    <script src="/js/slider.jquery.js"></script>
+
+    <!-- 시연 링크 -->
+    <script src="/js/link.js"></script>
+
+</body>
+</html>

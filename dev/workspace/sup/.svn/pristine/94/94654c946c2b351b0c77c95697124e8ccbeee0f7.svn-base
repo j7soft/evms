@@ -1,0 +1,121 @@
+.sub_slider{
+	margin:0 auto;
+	position: relative;
+	max-width: 1170px;
+	max-height: 500px;
+	margin-top:30px;
+	margin-bottom: 70px;
+}
+
+.sub_slider:after{
+	content: '';
+	display: block;
+	width: 100%; height: 100%;
+	background-color: rgba(255, 255, 255, .7);
+	position: absolute;
+	left: 0; top: 0;
+	z-index: 1;
+}
+.sub_slider>img{
+	/*box-shadow: 0 29.5px 38px #e0e0e0;*/
+
+	position: absolute;
+	left:50%;
+	top:50%;
+
+	width:70%;
+	height: 90%;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	-webkit-transform: translate(-50%,-50%)scale(1);
+	-moz-transform: translate(-50%,-50%)scale(1);
+	-o-transform: translate(-50%,-50%)scale(1);
+	transform: translate(-50%,-50%)scale(1);
+
+	z-index: 0;
+}
+
+
+
+.sub_slider>img.left , .sub_slider>img.center , .sub_slider>img.right{
+	display:inline-block;
+	opacity: 1;
+}
+.sub_slider>img.left{
+	-webkit-transform: translate(-61.25%,-50%);
+	-moz-transform: translate(-61.25%,-50%);
+	-o-transform: translate(-61.25%,-50%);
+	transform: translate(-61.25%,-50%);
+	z-index: 1;
+}
+.sub_slider>img.center{
+	z-index: 2;
+	-webkit-transform:translate(-50%,-50%) scale(1.1);
+	-moz-transform:translate(-50%,-50%) scale(1.1);
+	-o-transform:translate(-50%,-50%) scale(1.1);
+	transform:translate(-50%,-50%) scale(1.1);
+	box-shadow: 0 3px 15px #868686;
+}
+.sub_slider>img.right{
+	-webkit-transform: translate(-39.25%,-50%);
+	-moz-transform: translate(-39.25%,-50%);
+	-o-transform: translate(-39.25%,-50%);
+	transform: translate(-39.25%,-50%);
+	z-index: 1;
+}
+.sub_slider>img.right,
+.sub_slider>img.left{
+	width: 70%;
+}
+
+.sub_slider>img.center{
+	width: 70%;
+}
+.sub_slider>.navContainer{
+	width:49%;
+	height: 100%;
+	position: relative;
+	display:inline-block;
+	z-index: 500;
+}
+.sub_slider>.navContainer>.leftClass,.sub_slider>.navContainer>.rightClass{
+	height: 100%;
+	width:52px;
+	background: url(../img/reservation/slider-arrow.png) no-repeat center;
+	background-position-x:0;
+	position: absolute;
+	opacity:0.6;
+}
+.sub_slider>.navContainer>.rightClass{
+	right: -15px;
+	background-position-x:-52px;
+	cursor: pointer;
+
+}
+.sub_slider>.navContainer>.leftClass{
+	left:0;
+	cursor: pointer;
+}
+
+@media all and (max-width: 1200px) {
+
+}
+
+@media all and (max-width: 960px) {
+.sub_slider{
+
+}
+
+}
+
+@media all and (max-width: 480px) {
+/*
+.sub_slider{
+	width:100%;height:151.709px !important;
+}
+.tep_box .sub_slider{height:136.752px !important;}
+*/
+
+}

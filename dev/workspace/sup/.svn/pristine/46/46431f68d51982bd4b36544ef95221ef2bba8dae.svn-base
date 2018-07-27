@@ -1,0 +1,502 @@
+@charset "utf-8";
+@import url(common.css);
+
+
+/* sub 페이지 메인 이미지*/
+#section .sub_bg{width: 100%; height: 446px; background:url(../img/introduction/sub_main.png) no-repeat;}
+#section .sub_bg h3{text-indent: -9999px}
+/* #section .reservation{width:1200px; margin:90px auto 0} */
+
+/* 2Depth H3 */
+/* .content_h3bx{margin: 100px auto;color: #8f1743;text-align:center}
+.content_h3bx h3{position:relative;font-size: 1.687rem;font-weight:500}
+.content_h3bx h3::after{content:"";display:block;width:190px;height:1px; background-color: #8f1743; position: absolute; bottom: -15px;left:50%;margin-left:-95px}
+.h3_icon{width: 76px;margin:75px auto 150px;position:relative;text-align: right}
+.h3_icon::after{content:"";display:block;width:85px;height:4px; background-color: #8f1743; position: absolute; bottom: -45px;left:50%;margin-left:-42px}
+ */
+ .reservation.Learning .fc-basic-view .fc-body .fc-row{
+    min-height: 3.7em;
+}
+.bbsbtn{
+	margin-top: 5px;
+}
+.bbsbtn button{
+    color: #a6a8ab;
+    padding: 10px 20px;
+    border: 1px solid #a6a8ab;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 16px;
+}
+.bbsbtn button.on,
+.bbsbtn button:hover{
+	background-color: #a6a8ab;
+	color: #fff;
+}
+#section .reservation #calendar{
+	max-width: 100%;
+}
+
+/* 예약 - 교육 페이지 */
+
+#map{width: 100% !important; height: 100% !important;float: left;}
+.calendar_area{}
+
+/* 예약 - 교육 2 페이지 */
+.request_area{width:625px;margin:0 auto}
+.request_area h4{font-size: 2.125rem;font-weight: 500}
+.request_area .edu_summary{padding:13px 0 8px;border-bottom: 3px solid #242021;font-size: 0.75rem}
+.request_area .edu_date{margin-top: 80px;margin-bottom: 65px}
+.request_area .edu_date li{margin-bottom: 12px;font-size: 0.875rem;font-weight: 500}
+.request_area .edu_date li:first-of-type{font-size: 1.25rem}
+.request_area .edu_date li:nth-of-type(2){margin-bottom: 22px}
+.request_area .edu_explain{width: 100%;margin-bottom: 65px;font-size: 0.875rem;font-weight: 500}
+.request_area .edu_location{width: 100%;height: 270px;padding-bottom: 115px;border-bottom: 3px solid #242021;font-size: 0.875rem;font-weight: 500}
+.request_area .edu_map{width: 100%;height: 270px;float: left}
+.request_area .edu_map_explain{width: 50%;height: 270px;float: left;box-sizing:border-box;padding-left: 2%;}
+.request_area .edu_map_explain h3{margin-bottom: 30px;font-size: 1.225rem;font-weight: bold;}
+.request_area .edu_map_explain p{font-size: 0.825rem}
+.request_area .edu_request{margin-top: 20px}
+.request_area .edu_request h5{margin-bottom: 50px;font-size: 1.25rem;font-weight: 700}
+.request_area .edu_request li{width:100%;}
+.request_area .edu_request li:after{content:'';display: block;clear:both;}
+.request_area .edu_request li div{width:100%;line-height: 29px;font-size: 0.75rem;box-sizing:border-box;float: left;margin-bottom: 30px;}
+.request_area .edu_request li div:after{content:'';display: block;clear:both;}
+.request_area .edu_request li div.width32{width: 32%;line-height: 22px;margin-right: 2%}
+.request_area .edu_request li div.width32:last-of-type{margin-right: 0}
+.request_area .edu_request li div.width48{width: 48%;;margin-right: 4%;}
+.request_area .edu_request li div.width48:last-of-type{margin-right: 0}
+.request_area .edu_request li div.width43{width: 43%;line-height: 22px;margin-right: 3%}
+.request_area .edu_request li div.width43:last-of-type{margin-right: 0}
+.request_area .edu_request li div span{width: 17%;font-size: 0.875rem;font-weight: 700;float: left;}
+.request_area .edu_request li div input{float: left;border-bottom: 1px solid #ccc;box-sizing:border-box;}
+.request_area .edu_request li:first-of-type input{width: 89%;line-height: 29px}
+.request_area .edu_request li:nth-of-type(2) input{width: 55%;line-height: 22px}
+.request_area .edu_request li:nth-of-type(3) input{width: 89%;line-height: 29px}
+.request_area .edu_request li:nth-of-type(4) input{width: 80%;line-height: 22px}
+.request_area .edu_request li:nth-of-type(5) input{width: 80%;line-height: 36px}
+.request_area .edu_request li div span:first-of-type{width: 11%;}
+.request_area .edu_request li div.width32 span{width: 45%;font-size: 0.687rem;font-weight: 500;text-align: center;}
+.request_area .edu_request li div.width43 span{font-size: 0.8rem;font-weight: 500;width: 18.5%;}
+.request_area .edu_request li div.width48 span{width: 23%;}
+.request_area .edu_request li div.width48 input{width: 77%;}
+.request_area .edu_request li:last-of-type input{width: 89%;}
+.request_area .edu_request li:last-of-type input[type="number"]{width: 80%;}
+.request_area .edu_request li>.redstar{position:relative;font-size: 0.875rem;font-weight: 700;float: left;width: 6.5%;}
+.request_area .edu_request li .redstar::before{content:"*";display:block;color: #ec1c24; position: absolute; left: -11px; top: 0;}
+.request_area .edu_request li input, .request_area .edu_request li label{}
+.request_area .edu_request li input.edu_sum{width:15px;margin:0 8px;position: relative;top: 12px}
+.request_area .edu_request li input.edu_number{width: 200px;line-height: 22px;top: -5px;text-align: center}
+.request_area .edu_agree{margin-top: 40px}
+.request_area .edu_agree ul li{line-height: 36px;font-size: 0.75rem}
+.request_area .edu_agree button{width:100%;height: 36px;margin-top: 30px;background: #a6a8ab;font-weight: 700;color: #fff}
+.request_area .edu_agree input{margin-right:8px;position: relative;top: 3px}
+.request_area .edu_agree ul li a{margin-left: 10px;font-weight: 700}
+
+
+/* 현장학습_1 */
+.Learning .topBox{width:100%;}
+.Learning .topBox .leftBox{width:550px; height: 550px; float:left; box-sizing:border-box;}
+.Learning .topBox .leftBox .img_box{width: 100%; height: 40%; border: 1px solid #2d2d2d; margin-bottom: 30px;}
+.Learning .topBox .leftBox1 .img_box{width: 100%; height: 100%; border: 1px solid #2d2d2d; margin-bottom: 30px;}
+.Learning .topBox .leftBox .text_Box{padding: 0 16px; box-sizing: border-box;}
+.Learning .topBox .leftBox .text_Box h3{margin-bottom: 20px; font-size:1.675rem; font-weight: bold;}
+.Learning .topBox .leftBox .text_Box ul{}
+.Learning .topBox .leftBox2{display: none;}
+.Learning .topBox .leftBox .text_Box ul li{font-size: 0.9em; margin-bottom: 7px;}
+.Learning .topBox .rightBox{width:520px; height: 550px; margin-left:130px; float:left; position:relative;}
+.Learning .topBox .rightBox h3{margin-bottom:50px; font-size:1.675rem; font-weight: bold;}
+.Learning .topBox .rightBox p{line-height: 2;}
+.Learning .topBox .rightBox .btn{width:100%;height:50px;position:absolute; bottom:0; right:0;}
+.Learning .topBox .rightBox .btn button{position:absolute;top:0;width:50%; height: 50px;}
+.Learning .topBox .rightBox .btn button:nth-child(1){left:0;background-color:#a6a8ab; color:#fff;}
+.Learning .topBox .rightBox .btn button:nth-child(2){right:0;border:2px solid #a6a8ab;background-coloR:#fff; color:#a6a8ab;}
+.Learning .topBox .rightBox .contentBox{width:100%; height:520px; border:1px solid #666; background-color:red;}
+.Learning .topBox .small{padding-top:10px; clear:both;font-size: 0.875rem; color:#8f1843; text-align: right;}
+.Learning .topBox .contentBox{width:100%; height: 520px; margin-top:30px; border:1px solid #666;padding: 20px;overflow-y: scroll;}
+.Learning .topBox .contentBox h3{font-size: 0.9rem;margin-bottom: 30px;}
+.Learning .topBox .contentBox ul{}
+.Learning .topBox .contentBox ul li{box-sizing: border-box;padding: 20px 10px;border-bottom: 1px solid #ddd;}
+.Learning .topBox .contentBox ul li:first-of-type{border-top: 1px solid #ddd;}
+.Learning .topBox .contentBox ul li p:first-of-type{font-size: 0.9rem;margin-bottom: 10px;letter-spacing:-0.5px;}
+.Learning .topBox .contentBox ul li p:last-of-type{font-size: 0.76rem;color: #999;}
+.Learning .topBox .contentBox3{width:100%; margin-top:60px;}
+.Learning .topBox .mapBox{width: 50%; height: 555px; float:left; border:1px solid #666; box-sizing:border-box;}
+.Learning .topBox .addreBox{width:50%; height: 555px; float:right; box-sizing:border-box; padding-left:5%;}
+.Learning .topBox .addreBox h3{font-size: 1.675rem;font-weight: bold;padding-bottom:36px;margin-bottom:36px;border-bottom:1px solid #ddd;}
+.Learning .topBox .addreBox p{font-size: 0.9em;margin-bottom: 20px;}
+.Learning .topBox .addreBox p:last-of-type{margin-bottom: 0;}
+.Learning .topBox .rightBox1 textarea{width: 100%; height: 70%;border: 0; box-sizing: border-box;font-size: 14px;}
+.Learning .topBox .rightBox2{display:none;}
+.Learning .topBox .rightBox2 .btn{width: 100%;}
+.Learning .topBox .rightBox2 .btn button{width: 100%;}
+
+/* 현장학습_2*/
+.Learning_02 .content{width:100%; box-sizing:border-box;}
+.Learning_02 .content .leftBox{float:left;}
+.Learning_02 .content .leftBox .imgBox{width:546px; height: 310px; border:1px solid #666; box-sizing:border-box;}
+.Learning_02 .content .leftBox .textBox{width:546px; height: 404px; margin-top:5px; border:1px solid #666; box-sizing:border-box;}
+.Learning_02 .content .rightBox{width:522px; position:relative; float:right;}
+.Learning_02 .content .rightBox>div:nth-child(1){height: 510px;}
+.Learning_02 .content .rightBox p:nth-child(2){margin:10px 0;font-size:12px;}
+.Learning_02 .content .rightBox .div{width:106px; height: 106px; margin-right:10px; display: inline-block; border:1px solid #666; box-sizing:border-box;}
+.Learning_02 .content .rightBox .btn{margin-top:20px;}
+.Learning_02 .content .rightBox .btn button{width:100%; height: 46px; background-color:#a6a8ab; color:#fff;}
+
+.Learning_02 .content2{margin-top:195px;}
+.Learning_02 .content2 .mapBox{width:628px; height:555px; float:left; border:1px solid #666; box-sizing:border-box;}
+.Learning_02 .content2 .addreBox{width:572px; height: 555px; float:right; text-align: center;}
+
+
+/* 현장학습 3 페이지 */
+.learning3 .request_area .edu_location{width: 100%;height: 350px;border-bottom: 3px solid #242021}
+.learning3 .request_area .edu_request{margin-top: 90px}
+.learning3 .request_area .edu_location textarea{width: 100%;height: 100%;border: 1px solid #ddd;box-sizing:border-box;}
+.learning3 .request_area .edu_request li .redstar{float: left;position:relative;font-size: 0.875rem;font-weight: 700}
+.learning3 .request_area .edu_request li:nth-of-type(2) input{width: 76%;line-height: 29px}
+
+/* 현장학습 4페이지 */
+.learning4 .request_area .edu_request li:nth-of-type(2) input{width: 77%; line-height: 36px;}
+.learning4 .edu_request{margin-top: 20px;}
+.learning4 .edu_request1{border-bottom: 1px dashed #ddd;}
+.learning4 .edu_request .left{width: 10%; height: 30px; line-height: 30px; float: left; font-size: 0.875rem; font-weight: 700;}
+.learning4 .edu_request .left.bar{width: 15%; text-align: center; font-size: 1.4rem;}
+.learning4 .edu_request .left.text{width: 25%; font-size: 0.7rem; margin-left: 2%; color: #a6a8ab;}
+.learning4 .edu_request h5{margin-top: 20px;}
+.learning4 .edu_request .width35{width: 35%; float: left; border: 0; margin-right: 3%;}
+.learning4 .edu_request .width10{width: 10%; float: left; border: 0; margin-right: 2%;}
+.learning4 .edu_request .width10 input[type="number"]{width: 100%; height: 30px; border: 2px solid #b9bbbd;}
+.learning4 .edu_request .width10:nth-of-type(2n){margin-right: 0;}
+.learning4 .edu_request .width35:last-child{margin-right: 0;}
+.learning4 .edu_request .width35 select{width: 100%; height: 30px; border: 2px solid #b9bbbd; vertical-align: top;}
+.learning4 .edu_reques2{margin-top: 0;}
+.learning4 .form_group{margin-bottom: 20px;}
+.learning4 .edu_request li input[type="checkbox"]{width: auto; float: none;}
+.learning4 .edu_request li label{float: none;}
+.learning4 .form_group label{font-size: 0.875rem; font-weight: 700;}
+.learning4 .form_group input{margin-right: 10px;}
+.learning4 .check_box{border: 2px solid #b9bbbd; padding: 20px 10px; margin-top: 10px; margin-bottom: 30px;}
+.learning4 .check_box input{margin-right: 0;}
+.learning4 .check_box label{color:#000; font-size: 0.8rem;}
+.learning4 .check_box label span{font-size: 0.65rem; color: #929497; font-weight: 400;}
+.learning4 .check_box .text_box{padding-top: 20px; padding-left: 35px; border-top: 1px dashed #b9bbbd;}
+.learning4 .check_box .text_box p{font-size: 0.7rem; margin-bottom: 10px; color: #888;}
+.learning4 .form_group h5{font-weight: bold; margin-bottom: 5px;}
+.learning4 .form_group textarea{width: 100%; border: 2px solid #b9bbbd;}
+.learning4 .form_group textarea{width: 100%; border: 2px solid #b9bbbd;}
+.learning4 .edu_agree li:nth-of-type(1){margin-bottom: 40px;}
+.learning4 .edu_agree div:nth-of-type(1){border-bottom: 2px solid #b7b8bb}
+.learning4 .edu_agree div:nth-of-type(1):after{content: ''; display: block; clear: both;}
+.learning4 .edu_agree div:nth-of-type(1) span{font-size: 1rem;}
+.learning4 .edu_agree div:nth-of-type(1) h5{float: left; font-size: 1rem; font-weight: bold;}
+.learning4 .edu_agree div:nth-of-type(1) > span{float: right; font-size: 1.6rem;}
+.learning4 .edu_agree div:nth-of-type(1) > span span{font-size: 1.6rem; color: #444;}
+
+/* 대관 2 */
+.Rent .topBox>div:nth-child(1){width:960px; height: 960px; margin:0 auto 60px; border:1px solid #666;}
+.Rent .topBox{text-align: center;}
+.Rent .topBox .textBox p{width:240px; margin:0 auto 25px;text-align: left; font-size:15px;}
+
+.Rent .topBox .btn{margin-top:40px;}
+.Rent .topBox .btn button{width:260px; height: 46px; background-color:#a6a8ab; font-size:16px; color:#fff;}
+
+/* 대관 3 */
+.Rent_3 .topBox{width:625px; margin:0 auto;}
+.Rent_3 .topBox .Box1>p:nth-child(1){font-size:1.563rem; font-weight: bold;}
+.Rent_3 .topBox .Box1>p:nth-child(2){padding:15px 0; font-size: 0.938rem;}
+.Rent_3 .topBox .Box1 label p{padding-left:35px; line-height: 2; font-size: 0.7rem;margin-bottom: 10px;}
+.Rent_3 .topBox .Box1 label p>input{position:relative; top:3px; left:-8px;}
+
+.Rent_3 .topBox .box2 ul{margin-top:30px; margin-bottom:30px;}
+.Rent_3 .topBox .box2 ul li, .Rent_3 .topBox .box4 ul li, .Rent_3 .topBox .box5 ul li{width:100%; height: 29px; margin-bottom:30px; position:relative;}
+.Rent_3 .topBox .box2 ul li span,.Rent_3 .topBox .box4 ul li span{width: 17%; height: 100%;display: inline-block; margin-right:10px; font-size: 0.938rem; font-weight: 500;line-height: 29px;}
+.Rent_3 .topBox .box2 ul li input{font-size:0.688rem; height: 100%;color:#a6a8ab;border-bottom: 1px solid #ccc;}
+.Rent_3 .topBox .box2 ul li input[type="text"]{width: 80% !important;border-bottom: 1px solid #ccc;}
+.Rent_3 .topBox .box2 ul li:nth-child(1) input{width:200px;}
+.Rent_3 .topBox .box2 ul li:nth-child(2), .Rent_3 .topBox ul:nth-of-type(1) li:nth-child(3){border-bottom:none;}
+.Rent_3 .topBox .box2 ul li:nth-child(2) input{width: 200px; height: 24px; border:1px solid #ccc;}
+.Rent_3 .topBox .box2 ul li:nth-child(2) input:nth-child(3){margin-left:15px;}
+.Rent_3 .topBox .box2 ul li:nth-child(2) .checkbox{width:auto; margin-right:3px; position:relative; top:9px;}
+.Rent_3 .topBox .box2 ul li:nth-child(5) .checkbox{margin-right:3px; position:relative; top:4px;}
+
+.Rent_3 .topBox .box2 ul li .span{width:auto;position:absolute; top:-6px; right:10px; font-size:0.750rem;}
+.Rent_3 .topBox .box2 ul li:nth-child(5) .span{width:auto; position:absolute; right:10px; top:-1px;}
+
+.Rent_3 .topBox .box2 ul li:nth-child(3) input{height: 24px; position:relative; border:2px solid #c9cacc;}
+.Rent_3 .topBox .box2 ul li:nth-child(3) input:nth-of-type(2){margin-left:40px;}
+.Rent_3 .topBox .box2 ul li:nth-child(3) input:nth-of-type(2):after{content:""; display: block; width:10px; height: 1px; position:absolute; left:-27px; background-color:#231f20;}
+.Rent_3 .topBox .box2 ul li:nth-child(3) input:nth-child(2):after{display: none;}
+.Rent_3 .topBox .box2 ul li:nth-child(3) span .text_span{width:50%; display: inline-block; font-size:0.625rem;color:#a6a8ab; text-align: right;}
+.Rent_3 .topBox .box2 ul li:nth-child(4) input,.Rent_3 .topBox .box2 ul li:nth-child(6) input{width:70%;}
+.Rent_3 .topBox .box2 small{position:absolute; right:0; font-size:0.688rem; color:#a6a8ab;}
+
+
+.Rent_3 .topBox .box3{width:100%;}
+.Rent_3 .topBox .box3>p:nth-child(1){position:relative; font-size:0.938rem;}
+.Rent_3 .topBox .box3>p span{position: absolute; right:0; font-size:0.625rem; color:#a6a8ab;}
+.Rent_3 .topBox .box3  ul{margin-top:10px;}
+.Rent_3 .topBox .box3 ul li{width:32.5%; height:auto; display:inline-block; box-sizing:border-box;}
+.Rent_3 .topBox .box3 ul li p {font-size:0.688rem;margin-bottom: 10px;}
+.Rent_3 .topBox .box3 ul li input{position:relative; top:2px;}
+
+.Rent_3 .topBox .box4{margin-top:70px; margin-bottom:70px; padding-top:70px; padding-bottom:30px; border-top:1px dashed #edeeee; border-bottom:1px dashed #edeeee;}
+.Rent_3 .topBox .box4 ul li input{font-size:0.688rem; color:#a6a8ab;height: 100%;width: 80%;border-bottom: 1px solid #ccc;}
+.Rent_3 .topBox .box4 ul li .phone_select{width: 68px; border:none; border-bottom:2px solid #b7b8bb; text-indent:6px}
+.Rent_3 .topBox .box4 ul li .phone{width:68px; position:relative; top:3px; border-bottom:2px solid #b7b8bb;}
+.Rent_3 .topBox .box4 ul li:nth-last-child(1){border:none;}
+.Rent_3 .topBox .box4 ul li .email{border-bottom:2px solid #b7b8bb;}
+.Rent_3 .topBox .box4 ul li .email_select{width:100px; margin-left:10px; position:relative; top:-3px; border:none; border-bottom:2px solid #b7b8bb;}
+
+.Rent_3 .topBox .box5 ul li p{font-size:0.938rem; font-weight: 500;}
+.Rent_3 .topBox .box5 ul li:nth-of-type(1) p input{margin-left:50px;height: 100%;width: 77%;border-bottom: 1px solid #ccc;}
+.Rent_3 .topBox .box5 ul li:nth-of-type(2) p input{width: 74%;height: 100%;border-bottom: 1px solid #ccc;}
+.Rent_3 .topBox .box5 ul li.inputli input{width: 100%; height: 100%; border-bottom: 1px solid #ccc;}
+.Rent_3 .topBox .box5 ul li p input{margin-left:50px;}
+.Rent_3 .topBox .box5 ul li small{position:relative; top:15px; font-size:0.688rem; color:#a6a8ab;}
+.Rent_3 .topBox .box5 ul li:nth-child(2){padding-top:40px;}
+.Rent_3 .topBox .box5 ul .inputli input{width:100%;}
+.Rent_3 .topBox .box5 ul li:nth-child(3){margin-bottom:0;}
+.Rent_3 .topBox .box5 ul li:nth-child(5){border:none;}
+.Rent_3 .topBox .box5 ul li span{position:relative; top:-3px; font-size:0.688rem;}
+
+.Rent_3 .topBox .box6{margin-top:100px; margin-bottom:90px; padding-top:55px; border-top:1px dashed #edeeee;}
+.Rent_3 .topBox .box6 p{margin-top:10px; margin-bottom:5px; font-size:0.938rem; font-weight: 500;}
+.Rent_3 .topBox .box6 p input{margin-left:40px;}
+.Rent_3 .topBox .box6 span{position:relative; top:-3px; font-size:0.688rem;}
+.Rent_3 .topBox .box6 small{font-size:0.688rem; color:#a6a8ab;}
+
+.Rent_3 .topBox .btn button{width:100%; height: 44px; background-color:#a6a8ab; font-size:1rem; font-weight:bold; color:#fff;}
+
+
+
+/* 셔틀버스 페이지 */
+#fhour, #fmin{border: 1px solid #ddd;}
+.bus_info{width:100%;height:245px}
+.bus_request h4{margin: 60px 0;font-size: 1.875rem;font-weight: 700}
+.bus_request li{width: 100%;height: 65px;clear: both}
+.bus_request li div{width: 100%;line-height: 29px;float: left;font-size: 0.75rem}
+.bus_request li span{display: inline-block;width: 13%;line-height:29px;float: left; font-size: 0.875rem;font-weight: 700}
+.bus_request li input{width:80%;line-height:29px;float: right;text-align: center}
+.bus_request li input[type="date"]{width: 40%;height: 20px;border: 1px solid #ddd;box-sizing:border-box;float: none;}
+.bus_request li input[type="text"]{width:86%;border-bottom: 1px solid #ddd;}
+.bus_request li div.width48{width: 48%;;margin-right: 4%}
+.bus_request li div.width48:last-of-type{margin-right: 0}
+.bus_request li.border_none div{border-bottom: 0}
+.bus_request .border_none input, .bus_request .border_none select{width: 20%;height: 30px;line-height: 20px;float: left;border:none;border-bottom: 1px solid #b7b8bb;box-sizing: border-box}
+.bus_request .border_none span{margin-left: 2%}
+.bus_request .border_none span:first-of-type{margin-left: 0}
+.bus_request li.bus_email input{width: 36%}
+.bus_request li select{width: 16%;border: 1px solid #ddd;}
+.bus_request .bux_box{height: auto}
+.bus_request .bux_box div span{width: 100%;}
+.bus_request .bux_box textarea{width: 100%;height: 86px; margin-left: 0;border: 1px solid #ddd;box-sizing: border-box;font-size: 0.875rem}
+.request_area .bus_request .edu_agree button{margin-top: 70px}
+
+
+/* ******** 상민 ******** */
+.office .tep_list_box{
+	margin-bottom: 40px;
+}
+.office .tep_list_box ul{
+	width: 75%; margin: auto;
+	text-align: center;
+	box-sizing: border-box;
+}
+.office .tep_list_box ul:after{}
+.office .tep_list_box ul li{
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+	font-size: 18px;
+	font-weight: bold;
+	color: #929497;
+}
+.office .tep_list_box ul li span{
+	cursor: pointer;
+}
+.office .tep_list_box ul li.active{
+	color: #8f1843;
+}
+.office .tep_wrap{
+	margin-bottom: 80px;
+}
+.office .tep_wrap .tep_box{
+	display: none;
+}
+.office .tep_wrap .tep_box0{
+	display: block;
+}
+.office .tep_wrap .tep_box .slider{
+	margin-bottom: 40px;
+}
+.office .tep_wrap .tep_box .info_list{
+	margin-bottom: 40px;
+}
+.office .tep_wrap .tep_box .info_box ul{}
+.office .tep_wrap .tep_box .info_box ul li{
+	position: relative;
+	float: left;
+	width: 16.66666%;
+	height: 100px;
+}
+.office .tep_wrap .tep_box .info_box ul li:after{
+	content: '';
+	display: block;
+	width: 100%; height: 100%;
+	background: url(../img/Reservation/list_right_line.png) 86% center no-repeat;
+	position: absolute;
+	top: 0;
+}
+.office .tep_wrap .tep_box .info_box ul li h3{
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	text-indent: 20px;
+}
+.office .tep_wrap .tep_box .info_box ul li h4{
+	color: #58595b;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.office .tep_wrap .tep_box .info_box ul li p{
+	color: #6d6e70;
+	font-size: 14px;
+}
+
+.office .tep_wrap .tep_box .btn{
+	
+}
+.office .tep_wrap .tep_box .btn .reserv_btn{
+	box-sizing: border-box;
+	margin: auto;
+	text-align: center;
+	width: 168px; height: 47px;
+	line-height: 41px;
+	border: 3px solid #a6a8ab;
+	color: #a6a8ab;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.office .tep_wrap .tep_box .btn .reserv_btn img{
+	margin-left: 5px;
+}
+
+.office .schedule{}
+.office .schedule .schedule_head{
+	position: relative;
+	margin-bottom: 60px;
+}
+.office .schedule .schedule_head .month{}
+.office .schedule .schedule_head .month h3{
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: #2d2d2d;
+	font-size: 64px;
+	font-weight: bold;
+}
+.office .schedule .schedule_head .month h3 span{
+	color: #8D8D8D;
+	font-size: 50px;
+	cursor: pointer;
+}
+.office .schedule .schedule_head .month h3 span:nth-of-type(1){
+	margin-right: 35px;
+}
+.office .schedule .schedule_head .month h3 span:nth-of-type(2){
+	margin-left: 40px;
+}
+.office .schedule .schedule_head .month p{
+	text-align: center;
+	font-size: 16px;
+	color: #585858;
+}
+.office .schedule .schedule_head > div:nth-of-type(2){
+	position: absolute;
+	top: 60%; right: 25%;
+
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-o-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}
+.office .schedule .schedule_head > div:nth-of-type(2) p{
+	font-size: 14px;
+	color: #B5B5B5;
+	font-weight: bold;
+	margin-bottom: 5px;
+	position: relative;
+}
+.office .schedule .schedule_head > div:nth-of-type(2) p:after{
+	content: '';
+	display: block;
+	width: 8px; height: 8px;
+	position: absolute;
+	top: 50%; left: -15px;
+	margin-top: -4px;
+	border-radius: 50%;
+}
+.office .schedule .schedule_head > div:nth-of-type(2) p:nth-of-type(1):after{
+	background-color: #467dbf;
+}
+.office .schedule .schedule_head > div:nth-of-type(2) p:nth-of-type(2):after{
+	background-color: #ed2c64;
+}
+.office .schedule .schedule_head .table_box{
+
+}
+.office .schedule .schedule_head .table_box *{
+	box-sizing: border-box;
+}
+
+.office .schedule table{
+	width: 100%;
+	border: 2px solid #DEDEDE;
+}
+.office .schedule table tr{
+	height: 50px;
+}
+.office .schedule table tr th{
+	font-weight: bold;
+}
+.office .schedule table tr th,
+.office .schedule table tr td{
+	width: 12.5%;
+	border-left: 2px solid #DEDEDE;
+	border-bottom: 2px solid #DEDEDE;
+}
+.office .schedule table tr td{
+	
+}
+.office .schedule table tr:nth-of-type(1){
+	border-bottom: 3px solid #CCCCCC;
+	border-top: 2px solid #DEDEDE;
+}
+.office .schedule table tr:nth-of-type(1) th{
+	border: 0;
+}
+.office .schedule table tr:nth-of-type(1) th:nth-of-type(1){
+	border: 2px solid #DEDEDE;
+}
+.office .schedule table tr td div{
+	margin-bottom: 15px;
+}
+.office .schedule table tr td p{
+	padding-left: 35px;
+	position: relative;
+	font-size: 14px;
+}
+.office .schedule table tr td p:nth-of-type(1):after{
+	content: '';
+	display: block;
+	width: 8px; height: 8px;
+	position: absolute;
+	top: 55%; left: 22px;
+	margin-top: -4px;
+	border-radius: 50%;
+	background-color: #ed2c64;
+}
+/* ******** 상민 끝 ******** */

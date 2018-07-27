@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>서울새활용플라자</title>
+<!--
+<link rel="stylesheet" href="/css/SUP_Materials.css">-->
+
+	<!--[if lt IE 9]>
+      <script src="../js/reset/html5shiv.js"></script>
+      <script src="../js/reset/respond.min.js"></script>
+      <script src="../js/reset/IE9.js"></script>
+    <![endif]-->
+</head>
+<style>
+	.box_intro_01{text-align:center;padding-top:50px;padding-bottom:120px;}
+	.materials_intro_area h5{color:#52b134;font-size:16px;}
+	.materials_intro_area h5{font-size:16px;color:#52b134;}
+	.materials_intro_area{width:80%;margin:0 auto;max-width:1200px;}
+	.materials_intro_area h4{font-size:24px;padding:15px 0;text-align:center;font-weight:600;}
+	.leftGray{position:relative;height:610px;}
+	.box_intro_02{position:absolute;width:59%;left:0;border:1px solid #eee;z-index:-1;}
+	.box_intro_02 p{width:60%;color:#646464;margin-top:30px;margin-left:30px;}
+	.rightImg{position:absolute;right:0;top:60%;transform:translateY(-50%);}
+	.imgBanner{position:absolute;left:0;top:45%;transform:translateY(-50%);}
+	.line2Txt{width:54%;position:absolute;right:0;text-align:right;z-index:-1;top:53px;border:1px solid #eee;}
+	.line2Txt p{width:60%;text-align:justify;float:right;}
+	.line2{padding-top:125px;}
+	.list_materials_vision{text-align:center;}
+	.list_materials_vision li{text-align:left;}
+	.list_materials_vision h5{padding:10px 0px;border:1px solid #52b134;display:inline-block;width:100%;text-align:center;margin:0 auto;}
+	.list_materials_vision .centerLi{width:33.33%;margin:0 auto;text-align:center;}
+	.list_materials_vision .threeLi>li{width:33.3%;float:left;margin-left:}
+	.threeLi>li>div{width:85%;margin:0 auto;}
+	.threeLi>li>div>h5{width:100%;}
+	.list_materials_vision ul.list_square li{text-align:left;list-style:circle;margin:8px 0;margin-left:35px;font-size:14px;}
+	.list_materials_vision ul.list_square li.not_square{list-style:none;}
+	.centerLi ul.list_square li{margin-left:32px;}
+	.centerLi>div{width:85%;margin:0 auto;border-bottom:1px dashed #eee;padding:40px 0;}
+	.threeLi{padding:50px 0;overflow:hidden;border-bottom:1px dashed #eee;}
+	.materials_intro_area .box_right h4{padding:60px 0;}
+	.box_major_business li{margin:5px 0;}
+	.mainRight, .mainLeft{width:50%;float:left;}
+	.materials_intro_area .mainRight h5, .materials_intro_area .mainLeft h5{color:black;font-size:22px;font-weight:600;padding-bottom:30px;}
+	.box_major_business p{font-size:20px;padding-bottom:25px;}
+	.ml10{padding-bottom:25px;}
+	.ml10 li:first-of-type{font-weight:500;margin-left:0;}
+	.ml10 li{margin:5px 0;margin-left:7px;}
+	.mainRight .box_major_business ul li{font-size:20px;padding-bottom:25px;border-bottom:1px dashed #ccc;}
+	.p_major_business{color:#646464;font-size:16px;}
+	.p_major_business p{margin:20px 0;}
+	.p_major_business a{font-weight:bold;font-size:18px;border-bottom:1px solid black;display:inline-block;margin-top:40px;}
+	.line2 .line2Txt p{float:right;margin:30px;margin-bottom:40px;}
+	.box_intro_02 h5{font-size:24px;color:black;padding-left:30px;padding-top:30px;}
+	.line2Txt h5{font-size:24px;color:black;padding-right:30px;padding-top:30px;}
+	@media all and (max-width:1360px) {
+		.leftGray{height:auto;}
+		.rightImg{text-align:right;}
+		.rightImg img, .imgBanner img{margin:2%;}
+		.rightImg, .imgBanner{text-align:center;}
+		.leftGray, .box_intro_02, .rightImg, .imgBanner, .line2Txt{position:static;transform:none;}
+		.box_intro_02{width:100%;text-align:center;}
+		.box_intro_02 p{width:90%;margin-left:0;margin:30px auto;}
+		.line2Txt{text-align:center;width:100%;}
+		.materials_intro_area h4{float:none;}
+		.line2 .line2Txt p{float:none;text-align:center;width:90%;}
+		.line2, .box_left{padding-top:50px;}
+		.materials_intro_area .mainRight h5, .materials_intro_area .mainLeft h5, .mainRight .box_major_business ul li{font-size:20px;}
+		.p_major_business a{font-size:17px;margin-top:0;}
+		.mainRight{padding-top:45px;}
+		.line2 .line2Txt p{margin:30px auto;}
+	}
+	@media all and (max-width:916px) {
+		.mainRight, .mainLeft{width:90%;margin:0 auto;float:none;}
+		
+	}
+	@media all and (max-width:798px) {
+		.rightImg img, .imgBanner img{width:90%;margin:0 auto;margin-top:2%;}
+		.list_materials_vision .centerLi{width:65%;}
+		.list_materials_vision .threeLi>li{width:65%;float:none;margin:30px auto;}
+		.threeLi{padding:0; }
+		.box_intro_01{padding-bottom:60px;}
+	
+	}
+	@media all and (max-width:480px) {
+	.list_materials_vision .threeLi>li, .list_materials_vision .centerLi{width:100%;}
+	.box_intro_02 p, .line2 .line2Txt p, .ml10 li, .box_major_business li, .p_major_business p, .materials_intro p{font-size:15px;}
+	.line2Txt h5, .box_intro_02 h5{padding-right:0;padding-top:15px;text-align:left;padding-left:5px;font-size:18px;}
+	.rightImg img, .imgBanner img{margin:5%;}
+	.line2, .box_left{padding-top:0;}
+	.box_intro_01>div:first-of-type{width:20%;margin:0 auto;}
+	.box_intro_01>div:first-of-type img{width:100%;}
+	}
+
+
+
+</style>
+<!--img_recycle_2.svg-->
+
+<body>
+    <div id="materials_wrap">
+ 
+    <!--  Main section 영역  -->
+    <section id="section">
+        <article class="materials_intro">
+            <div class="content_h3bx">
+                <h3>사업 개요</h3>
+                <ul class="route">
+                    <li>홈</li>
+                    <li>소재정보</li> 
+                    <li>사업 개요</li>
+                </ul>
+            </div>
+            <div class="materials_intro_area">
+				<div style="text-align:center;">
+                <h4>소재은행 사업 개요</h4>
+                <p>새활용에서 폐기물이란 유용한 새활용 디자인 소재이며 지속가능한 지구를 위한 소중한 순환자원입니다.<br>새활용 소재 은행은 새활용 소재 공급자와 수요자의 연결을 위한 공간입니다.</p>
+				<div class="box_intro_01">
+							<div><img src="/img/img_recycle_2.svg" alt=""></div>
+                            <h5>새활용 100% = 폐기물 0%,  Upcycling 100% = Waste 0%</h5>
+                           <!-- <p>‘새활용’에서 ‘폐기물’이란 유용한 새활용 디자인 소재이며 지속가능한 지구를 위한 소중한 순환자원입니다.</p>-->
+                 </div>
+				 </div>
+				 <div class="line1">
+						<div class="leftGray">
+							<div class="box_intro_02">
+								<h5 style=>새활용 소재은행<br>: 무엇을 하는 곳인가?</h5>
+								 <p>새활용 디자인 산업은 폐기물에 디자인을 더해 새로운 제품을 만들어내는 일종의 제조업입니다. 제조업의 발전과 활성화는 원자재, 기술, 자본의 생산 3요소 Factors of Production에 의해 결정됩니다. 새활용 디자인 산업에서 원자재란 하루 390,000ton씩 발생하는 넘쳐나는 폐기물입니다. 그렇다면 우리의 기술, 곧 디자인과 자본이 준비되었다면 새활용 디자인 산업의 활성화란 다른 산업에 비해 쉬운 일인 것처럼 보입니다. 원자재 수입, 원자재 품귀, 원자재 가격 폭등 등 최소한 원자재 관련 위기는 없는 것처럼 보입니다. 그러나 현실은 다릅니다.</p>
+								  <p style="padding-bottom:40px;">우리나라 새활용 디자인 산업이 활성화되지 못한 이유 중 하나는 폐기물의 불안정한 수급입니다. 생산 3요소 중 원자재라 할 폐기물은 일상에서 넘쳐나지만 그 수급은 원활하지 않습니다. 현재의 새활용 디자인 산업 구조는 새활용 소재 보유자와 디자이너인 수요자 만이 존재하는 매우 단순한 구조입니다. 새활용 소재 관련 정보와 물류흐름이 양자간의 직접적인 정보교환 속에서이루어지고 있습니다. 정보의 비대칭성에 따른 새활용 소재 확보의 어려움과 비용부담 증가 문제가 존재할 수밖에 없는 구조입니다. 넘쳐나는 원자재인 폐기물과 수요자와의 ‘합리적인 연결고리’가 없다는 현실이 ‘21세기 연금술’ 인 새활용 디자인 산업의 위기요인입니다. ‘연결고리’를 만들어야 합니다. ‘서울새활용플라자 새활용 소재 은행’의 설립 취지입니다.</p>
+							 </div>
+							<div class="rightImg"><img src="/img/materials/materials_intro_01.png" alt=""></div>
+							</div>
+					</div>
+					 <div class="line2">
+						<div class="leftGray">
+							<div class="line2Txt">
+								<h5>문화, 사회, 경제의 연결고리<br>: 새활용 소재 은행의 역할</h5>
+							    <p>은행의 본질적이며 사전적인 역할은 최종 공급자와 수요자의 연결입니다. 새활용 소재 은행의 설립목적은 새활용 소재 공급자와 수요자의 완벽한 연결입니다. 새활용 소재 은행이 공급자와 수요자의 공정한 거래가 이루어지는 하나의 플랫폼이 되어 상생의 온라인 생태계 구축 그리고 수집 및 구매, 판매라는 오프라인 매장의 역할을 다하고자 합니다.  새활용 소재 은행은 새활용 디자인이 사회에 스며들게 하고, 문화와 라이프 스타일의 메가 트렌드로 자리잡도록 확산시키며, 대안적 경제의 큰 축이 되고자 합니다. 또한 교육의 공간, 놀이의 공간, 정보의 공간, 네트워크의 공간 등 ‘새활용 디자인’ 진흥을 위한 공간이 될 것입니다.</p>
+							</div>
+							<div class="imgBanner"><img src="/img/materials/materials_intro_03.png" alt=""></div>
+							
+						</div>
+					 </div>
+				  <div class="box_materials_02 clear">
+                    <div class="box_left">
+                        <h4 style="text-align:center;font-size:20px;font-weight:600;margin:0;">새활용 소재은행 발전 방식, 비전</h4>
+                        <ul class="list_materials_vision">
+                            <li class="centerLi">
+							<div>
+                                <h5>Vision</h5>
+                                <ul class="list_square">
+                                  <li>세계 대표적  새활용 사회, 문화, 경제적 생태계 허브</li>
+                                  <li>새활용 100%, 폐기물 0% 도시 서울 구현</li>
+                                </ul>
+								</div>
+                            </li>
+							<ul class="threeLi">
+                              <li>
+								<div>
+                                <h5>1단계 목표(2018~2020)</h5>
+                                <ul class="list_square">
+                                  <li>새활용 담론, 생태계 구축 및 확산</li>
+                                  <li>해외 네트워크 구축</li>
+                                  <li>국제 새활용 도큐멘타 개최를 인프라 구축</li>
+                                  <li>on/off-line 플랫폼 구축 완결</li>
+                                </ul>
+								</div>
+                            </li>
+                            <li>
+							<div>
+                                <h5>2단계 목표(2020~2022)</h5>
+                                <ul class="list_square">
+                                  <li>세계 대표적 새활용 생태계 허브</li>
+                                  <li>지속적 새활용 담론 생산, 생태계 구축 및 확산</li>
+                                </ul>
+								</div>
+                            </li>
+                           
+							<li>
+							<div>
+                                <h5>최종목표</h5>
+                                <ul class="list_square">
+                                  <li>세계 대표적 새활용 생태계 허브 도시 서울</li>
+                                  <li class="not_square">- 공급자, 수요자 매칭 중심 맞춤형 소재정보의 체계적 수집 · 생성 · 가공 · 보급</li>
+                                  <li class="not_square">- 국제 새활용 도큐멘타 호스트 도시 서울</li>
+                                  <li class="not_square">- on/off-line 플랫폼 구축을 통한 새활용 사회, 문화, 경제, 콘텐츠 DB</li>
+                                </ul>
+								</div>
+                            </li>
+							</ul>
+                        </ul>
+                    </div>
+                    <div class="box_right">
+                        <h4>주요사업</h4>
+						<!--
+
+						<div class="img_box">
+							<img src="/img/materials/m_1.png" alt="이미지">
+						</div>-->
+
+                        <!-- <ul class="list_major_business clear">
+                            <li class="clear">
+                              <div class="box_major_img"><img src="" alt=""></div>
+                              <div class="box_major_arrow"><img src="/img/materials/icon_major_arrow.png" alt="오른쪽으로 향하는 화살표 아이콘"></div>
+                              <div class="box_major_img"><img src="" alt=""></div>
+                            </li>
+                            <li class="clear">
+                              <div class="box_major_img"><img src="" alt=""></div>
+                              <div class="box_major_arrow"><img src="/img/materials/icon_major_arrow.png" alt="오른쪽으로 향하는 화살표 아이콘"></div>
+                              <div class="box_major_img"><img src="" alt=""></div>
+                            </li>
+                            <li class="clear">
+                              <div class="box_major_img"><img src="" alt=""></div>
+                              <div class="box_major_arrow"><img src="/img/materials/icon_major_arrow.png" alt="오른쪽으로 향하는 화살표 아이콘"></div>
+                              <div class="box_major_img"><img src="" alt=""></div>
+                            </li>
+                            <li class="clear">
+                              <div class="box_major_img"><img src="" alt=""></div>
+                              <div class="box_major_arrow"><img src="/img/materials/icon_major_arrow.png" alt="오른쪽으로 향하는 화살표 아이콘"></div>
+                              <div class="box_major_img"><img src="" alt=""></div>
+                            </li>
+                        </ul> -->
+						<div class="mainLeft">
+
+                        <h5>소재은행<br>(새활용플라자 지하 1층)</h5>
+                        <div class="box_major_business">
+                            <p>(2017.9.~2018.9.)</p>
+                            <ul class="ml10">
+                              <li>- 소재 전시</li>
+                              <li>서울새활용플라자 소재 은행 운영방안 소개</li>
+                              <li>새활용 자원 현황과 흐름, 소재 은행 역할</li>
+                              <li>제품 제작 소재로 폐자원 활용 유도와 새활용 소재 상품화 확산</li>
+                              <li>새활용 소재 실물 20종 전시 및 연계 작품 전시</li>
+                              <li>새활용 소재 체험 교육 및 워크숍 공간</li>
+                            </ul>
+                            <p>(2018.10.~)</p>
+                            <ul>
+                              <li>- 소재 쇼케이스(Showcase) 전시 및 행사, 소재 판매</li>
+                              <li>- 일반시민 교육용 새활용 디자인 솔루션 및 매뉴얼 기획, 제작, 판매</li>
+                              <li>- 새활용 디자인 DIY Kit 개발 및 판매(교육용 및 일반시민용)</li>
+                            </ul>
+                        </div>
+						</div>
+						<div class="mainRight">
+                        <h5>온라인 소재정보 서비스<br>
+						(2018.10월 예정)</h5>
+                        <div class="box_major_business">
+                            <ul>
+                              <li>- 새활용 소재정보 DB, 새활용 소재 및 디자인 상품 마켓, 소재 자료실, 국내외 트랜드 정보</li>
+                            </ul>
+                        </div>
+                        <div class="p_major_business">
+                            <p>새활용플라자 지하 1층 소재은행은 현장학습을 위한 전시로 운영중이며(2018.4월까지), 이후  신규 서비스 제공을 위한 공간으로 리뉴얼을 진행 후 재오픈(2018.9월)) 예정입니다.  이용에 참고하시기 바랍니다.</p>
+                            <!--<p>소재은행 관람을 원하시는 분께서는 현장학습을 통해 관람해주시기 바랍니다.<a href="/book.do?type=trip" >(현장학습 예약하기)</a></p>-->
+                        </div>
+						</div>
+                    </div>
+                </div>
+
+				<style>
+				
+				
+
+
+
+
+
+				</style>
+
+
+			</article>
+		</section>
+    </div>
+  
+    <script src="/js/slider.jquery.js"></script>
+    <!-- 시연 링크 -->
+    <script src="/js/link.js"></script>
+</body>
+</html>

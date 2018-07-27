@@ -1,0 +1,56 @@
+http://61.97.54.228/admin/boardDelete.do
+http://61.97.54.228/admin/board.do?NTT_ID=edu
+
+select  BBS_ID  from comtnbbs;
+select  NTT_ID  from comtnbbs;
+select FDATE  from comtnbbs;
+
+select  BBS_ID  from comtnbbs where NTT_ID='notice';
+select  BBS_ID, PUSHDATE  from comtnbbs where NTT_ID='notice' ORDER BY PUSHDATE DESC, BBS_ID DESC ;
+
+select  *  from comtnbbs where BBS_ID='1443';
+
+ORDER BY PUSHDATE DESC, BBS_ID DESC
+
+select  *  from comtnbbs where BBS_ID='1590';
+select  title  from comtnbbs where BBS_ID='1590';
+idx == null || idx.equals("")
+
+select  BBS_ID  from comtnbbs where NTT_ID='reservbus';
+select  *  from comtnbbs where BBS_ID='1588';
+select  BBS_ID  from comtnbbs where NTT_ID='reservedu';
+select  BBS_ID  from comtnbbs where NTT_ID='edu';
+select  *  from comtnbbs where BBS_ID='1597';
+
+
+select * from comtnbbs where 1=1 and ntt_id = 'reservrent'
+
+select fdate from comtnbbs where 1=1 and ntt_id = 'reservrent'
+
+
+select ftime , stime from comtnbbs where 1=1 and ntt_id = 'reservrent' and ftime is not null
+
+
+select * from comtnbbs where 1=1 and ntt_id = 'reservrent' and ftime is not null
+
+
+
+		update COMTNBBS
+		set 
+		 LAST_UPDT_PNTTM= SYSDATE
+		 ,RDCNT= #{RDCNT}
+		where 1=1
+		and BBS_ID = #{BBS_ID}
+
+
+select item_image from comtnbbs where 1=1 and bbs_id = '985';
+
+select item_image from comtnbbs where 1=1 and bbs_id = '998';
+
+select  *  from comtnbbs where 1=1 and bbs_id = '1106'
+
+SELECT COUNT(*) FROM USER_OBJECTS WHERE OBJECT_TYPE='TABLE';
+
+select  *  from comtnbbs;
+desc comtnbbs;
+

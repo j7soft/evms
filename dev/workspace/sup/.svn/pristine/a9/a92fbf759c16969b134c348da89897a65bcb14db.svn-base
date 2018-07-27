@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>서울새활용플라자</title>
+<link rel="stylesheet" href="../css/jquery.bxslider.css">
+<link rel="stylesheet" href="../css/SUP_Login.css">
+
+	<!--[if lt IE 9]>
+      <script src="../js/reset/html5shiv.js"></script>
+      <script src="../js/reset/respond.min.js"></script>
+      <script src="../js/reset/IE9.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <div id="login_wrap">
+    <!--  Header 영역  -->
+    <header class="header">
+        <div class="login_area clear">
+            <div class="header_home">
+              <ul>
+                <li>HOME</li>
+                <li>기관소개</li>
+              </ul>
+            </div>
+            <div class="header_login">
+              <ul>
+                <li>로그인</li>
+                <li>회원가입</li>
+                <li>마이페이지</li>
+                <li>고객센터</li>
+              </ul>
+            </div>
+        </div>
+        <div class="gnb_area">
+            <h1><img src="../img/common/logo.png" alt="서울새활용플라자"></h1>
+            <nav class="nav">
+              <ul class="gnb clear">
+                <li><span>SUP소개</span></li>
+                <li><span>프로그램</span></li>
+                <li><span>공간/시설</span></li>
+                <li><span>대관 및 예약</span></li>
+                <li><span>소재정보</span></li>
+                <li><span>커뮤니티</span></li>
+              </ul>
+            </nav>
+            <div>
+              <img src="../img/common/search_icon.png" alt="검색 아이콘">
+              <input type="search">
+            </div>
+        </div>
+        <div class="gnb_dropdown">
+          <div>
+            <ul class="gnb_list clear">
+                <li>
+                    <ul class="dropdown_list">
+                      <li><a href="">새활용이란</a></li>
+                      <li><a href="">사업소개</a></li>
+                      <li><a href="">인사말</a></li>
+                      <li><a href="">조직도</a></li>
+                      <li><a href="">오시는길</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="dropdown_list">
+                      <li><a href="">스튜디오</a></li>
+                      <li><a href="">전시</a></li>
+                      <li><a href="">대관</a></li>
+                      <li><a href="">교육</a></li>
+                      <li><a href="">현장학습</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="dropdown_list">
+                      <li><a href="">전시장</a></li>
+                      <li><a href="">스튜디오</a></li>
+                      <li><a href="">교육실</a></li>
+                      <li><a href="">팹랩</a></li>
+                      <li><a href="">야외시설</a></li>
+                      <li><a href="">부대시설</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="dropdown_list">
+                      <li><a href="">공간</a></li>
+                      <li><a href="">교육</a></li>
+                      <li><a href="">현장학습</a></li>
+                      <li><a href="">셔틀버스</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="dropdown_list">
+                      <li><a href="">소개</a></li>
+                      <li><a href="">현황</a></li>
+                      <li><a href="">소재은행</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="dropdown_list">
+                      <li><a href="">공지사항</a></li>
+                      <li><a href="">보도자료</a></li>
+                      <li><a href="">자료실</a></li>
+                      <li><a href="">FAQ</a></li>
+                    </ul>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </header>
+    <!--  //Header 영역  -->
+    <!--  Main section 영역  -->
+    <section id="section">
+        <div class="sub_bg"><h3>서브메인 이미지</h3></div>
+        <article class="login fint_pw">
+            <div class="content_h3bx">
+                <h3>비밀번호 찾기</h3>
+            </div>
+            <div class="find_result">
+                <div class="result_pw clear">
+                   <p>${resultInfo}</p>
+                   <p>으로 전송되었습니다.</p>                  
+                </div>
+                <div class="result_btn">
+                    <button>아이디 찾기</button>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!--  //Main section 영역  -->
+    <!--  Footer 영역  -->
+    <footer class="footer">
+       <div class="footer_wrap clear">
+        <div class="footer_info">
+            <ul class="footer_logo clear">
+              <li><h2><img src="../img/common/f_logo.png" alt="서울새활용플라자"></h2></li>
+              <li>
+                <ul class="footer_sns clear">
+                  <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                </ul>
+              </li>
+              <li>
+                <select name="" id="">
+                  <option value="Family Site">Family Site</option>
+                  <option value="Family Site">Family Site</option>
+                  <option value="Family Site">Family Site</option>
+                  <option value="Family Site">Family Site</option>
+                  <option value="Family Site">Family Site</option>
+                </select>
+              </li>
+            </ul>
+            <div class="footer_address clear">
+                <ul class="footer_company">
+                  <li>대표이사 | 이근</li>
+                  <li>대표번호 | 02-2153-0400</li>
+                  <li>사업자번호 | 201-82-08464</li>
+                </ul>
+                <ul class="footer_adr">
+                  <li>서울특별시 성동구 자동차시장길49 서울새활용플라자</li>
+                  <li>49,Jadongchasijag-gil , Seongdong-gu,Seoul , Republic of Korea</li>
+                  <li>COPYRIGHT © Seoul Design Foundation.ALL RIGHTS RESERVED.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_banner">
+            <ul class="clear">
+              <li><img src="../img/common/f_seoul.png" alt="함께서울"></li>
+              <li><img src="../img/common/f_ddp.png" alt="ddp"></li>
+            </ul>
+        </div>
+       </div>
+    </footer>
+    <!--  //Footer 영역  -->
+    </div>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery.bxslider.min.js"></script>
+    <script src="../js/common.js"></script>
+</body>
